@@ -1,0 +1,133 @@
+	----------M-E-N-U----------
+               Origional (2)
+ID:		NAME:
+
+*****Breakfast*****
+36	     -Sausage
+
+*****Monday Lunch*****
+
+*****Monday Dinner*****
+56	     -Pineapple
+17	Burger
+32	     -Hamburger
+41	     -Pepper
+42	     -Tomato
+49	     -Onion
+82	     -Hard Cheese
+39	     -Buns
+
+*****Tuesday Lunch*****
+0	     -Wild Rice Soup
+56	     -Pineapple
+88	     -Soup Crackers
+
+*****Tuesday Dinner*****
+0	     -Grandma's Lopster
+56	     -Pineapple
+70	     -Rice
+15	Stir-Fry
+49	     -Onion
+41	     -Pepper
+44	     -Carrots
+
+*****Wednessday Lunch*****
+10	Salad
+79	     -Crutons
+76	     -Dried Cranberries
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+33	     -Chicken
+
+*****Wednessday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta
+73	     -Diced Tomatoes
+72	     -Spaghetti Sauce
+71	     -Noodles
+71	     -Noodles
+49	     -Onion
+41	     -Pepper
+
+*****Thursday Lunch*****
+44	     -Carrots
+43	     -Cucumber
+41	     -Pepper
+53	     -Oranges
+14	Sandwich
+82	     -Hard Cheese
+35	     -Sliced Meat
+39	     -Buns
+
+*****Thursday Dinner*****
+40	     -Frozen Vegetables
+17	Burger
+82	     -Hard Cheese
+49	     -Onion
+42	     -Tomato
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Friday Lunch*****
+44	     -Carrots
+43	     -Cucumber
+41	     -Pepper
+53	     -Oranges
+14	Sandwich
+82	     -Hard Cheese
+35	     -Sliced Meat
+39	     -Buns
+
+*****Friday Dinner*****
+15	Stir-Fry
+70	     -Rice
+49	     -Onion
+44	     -Carrots
+41	     -Pepper
+31	     -Fish
+
+*****Saturday Lunch*****
+0	     -Left Overs
+5	Breakfast
+71	     -Bagel
+45	     -Grapes
+41	     -Bannana
+18	     -Sloppy Joe
+16	     -French Toast
+14	     -Sandwich
+9	     -Milk
+8	     -Juice
+9	     -Milk
+
+*****Saturday Dinner*****
+33	     -Chicken
+26	Mac & Cheese
+0	     -1/4 Cup of Flour
+71	     -Noodles
+9	     -Milk
+
+*****Sunday Lunch*****
+14	Sandwich - Tuna - Buns
+83	     -Tuna
+82	     -Hard Cheese
+41	     -Pepper
+39	     -Buns
+5	Breakfast
+71	     -Bagel
+45	     -Grapes
+41	     -Bannana
+18	     -Sloppy Joe
+16	     -French Toast
+14	     -Sandwich
+9	     -Milk
+8	     -Juice
+9	     -Milk
+
+*****Sunday Dinner*****
+0	     -Left Overs
+
+***********************

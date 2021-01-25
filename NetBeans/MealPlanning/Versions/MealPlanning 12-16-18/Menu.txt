@@ -1,0 +1,136 @@
+	----------M-E-N-U----------
+
+ID:		NAME:
+
+*****Breakfast*****
+5	Breakfast
+8	     -Juice
+9	     -Milk
+10	     -Eggs
+9	     -Milk
+0	     -Cereal
+41	     -Bannana
+18	     -Bread
+14	     -Bacon
+
+*****Monday Lunch*****
+45	     -Grapes
+20	Salad
+69	     -Crutons
+66	     -Dried Cranberries
+34	     -Carrots
+33	     -Cucumber
+32	     -Tomato
+31	     -Pepper
+13	     -Chicken
+35	     -Lettuce
+
+*****Monday Dinner*****
+25	Stir-Fry
+39	     -Onion
+34	     -Carrots
+31	     -Pepper
+15	     -Lunch Meat
+60	     -Rice
+
+*****Tuesday Lunch*****
+43	     -Oranges
+24	Sandwich
+72	     -Hard Cheese
+15	     -Lunch Meat
+18	     -Bread
+
+*****Tuesday Dinner*****
+30	     -Frozen Vegetables
+28	Sloppy Joe
+19	     -Buns
+12	     -Hamburger
+0	     -Sloppy Joe Mix
+
+*****Wednessday Lunch*****
+45	     -Grapes
+20	Salad
+69	     -Crutons
+66	     -Dried Cranberries
+34	     -Carrots
+33	     -Cucumber
+32	     -Tomato
+31	     -Pepper
+14	     -Bacon
+35	     -Lettuce
+
+*****Wednessday Dinner*****
+25	Stir-Fry
+39	     -Onion
+34	     -Carrots
+31	     -Pepper
+15	     -Lunch Meat
+60	     -Rice
+
+*****Thursday Lunch*****
+43	     -Oranges
+24	Sandwich
+72	     -Hard Cheese
+15	     -Lunch Meat
+18	     -Bread
+
+*****Thursday Dinner*****
+30	     -Frozen Vegetables
+28	Sloppy Joe
+19	     -Buns
+12	     -Hamburger
+0	     -Sloppy Joe Mix
+
+*****Friday Lunch*****
+43	     -Oranges
+20	Salad
+69	     -Crutons
+66	     -Dried Cranberries
+34	     -Carrots
+33	     -Cucumber
+32	     -Tomato
+31	     -Pepper
+35	     -Lettuce
+73	     -Tuna
+
+*****Friday Dinner*****
+25	Stir-Fry
+39	     -Onion
+34	     -Carrots
+31	     -Pepper
+15	     -Lunch Meat
+60	     -Rice
+
+*****Saturday Lunch*****
+20	Salad
+69	     -Crutons
+66	     -Dried Cranberries
+34	     -Carrots
+33	     -Cucumber
+32	     -Tomato
+31	     -Pepper
+14	     -Bacon
+35	     -Lettuce
+
+*****Saturday Dinner*****
+43	     -Oranges
+23	Rice & Meat
+13	     -Chicken
+60	     -Rice
+
+*****Sunday Lunch*****
+45	     -Grapes
+35	     -Lettuce
+24	Sandwich
+32	     -Tomato
+14	     -Bacon
+
+*****Sunday Dinner*****
+43	     -Oranges
+30	     -Frozen Vegetables
+28	Sloppy Joe
+19	     -Buns
+12	     -Hamburger
+0	     -Sloppy Joe Mix
+
+***********************

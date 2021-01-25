@@ -1,0 +1,120 @@
+	----------M-E-N-U----------
+               Temp-9-30-19
+ID:		NAME:
+
+*****Breakfast*****
+30	     -Eggs
+5	Breakfast
+38	     -Bread
+81	     -Bagel
+51	     -Bannana
+9	     -Milk
+8	     -Juice
+
+*****Monday Lunch*****
+0	     -DONE
+
+*****Monday Dinner*****
+0	     -Made Spagetti Dinner
+71	     -Noodles
+
+*****Tuesday Lunch*****
+0	     -Wheat Thins
+14	Sandwich
+39	     -Buns
+82	     -Hard Cheese
+35	     -Sliced Meat
+
+*****Tuesday Dinner*****
+11	Pasta - Chicken - Noodles
+85	     -Garlic
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+41	     -Pepper
+33	     -Chicken
+
+*****Wednesday Lunch*****
+0	     -Made Enchiladas
+70	     -Rice
+10	Salad
+33	     -Chicken
+45	     -Lettuce
+42	     -Tomato
+
+*****Wednesday Dinner*****
+63	     -Cookies
+18	Sloppy Joe - Hamburger - Buns
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Thursday Lunch*****
+0	     -Wheat Thins
+14	Sandwich
+39	     -Buns
+82	     -Hard Cheese
+35	     -Sliced Meat
+
+*****Thursday Dinner*****
+11	Pasta - Chicken - Noodles
+85	     -Garlic
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+41	     -Pepper
+33	     -Chicken
+
+*****Friday Lunch*****
+14	Sandwich - Tuna - Buns
+83	     -Tuna
+82	     -Hard Cheese
+42	     -Tomato
+41	     -Pepper
+39	     -Buns
+
+*****Friday Dinner*****
+63	     -Cookies
+18	Sloppy Joe - Hamburger - Buns
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Saturday Lunch*****
+0	     -Made Enchiladas
+70	     -Rice
+
+*****Saturday Dinner*****
+63	     -Cookies
+11	Pasta - Chicken - Noodles
+85	     -Garlic
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+41	     -Pepper
+33	     -Chicken
+
+*****Sunday Lunch*****
+0	     -Made Enchiladas
+70	     -Rice
+
+*****Sunday Dinner*****
+63	     -Cookies
+18	Sloppy Joe - Hamburger - Buns
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+***********************

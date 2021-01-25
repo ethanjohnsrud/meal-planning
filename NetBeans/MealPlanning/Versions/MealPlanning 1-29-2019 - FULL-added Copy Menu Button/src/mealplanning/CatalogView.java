@@ -1,0 +1,484 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package mealplanning;
+
+import java.util.ArrayList;
+import java.util.List;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+import static mealplanning.CatalogView.Catalog;
+import static mealplanning.CatalogView.CatalogFoodOnly;
+import static mealplanning.MealPlanning.primaryStage;
+import static mealplanning.MealPlanning.catalogView;
+import static mealplanning.MealPlanning.mealView;
+import static mealplanning.MealPlanning.menuView;
+import static mealplanning.MealPlanning.shoppingListView;
+import static mealplanning.MealPlanning.alert;
+import static mealplanning.MealPlanning.save;
+
+/**
+ *
+ * @author ethan
+ */
+
+public class CatalogView {
+    
+    CatalogView() {
+        setCatalog();
+        runCatalog();
+    }
+    
+        //Catalog
+    static final ObservableList<Meal> Catalog = FXCollections.observableArrayList();
+    static final ObservableList<Meal> CatalogFoodOnly = FXCollections.observableArrayList();
+    
+    private CatalogView catalogView = MealPlanning.catalogView;
+    private MealView mealView = MealPlanning.mealView;
+    private MenuView menuView = MealPlanning.menuView;
+    private ShoppingListView shoppingListView = MealPlanning.shoppingListView;
+    private AlertBox alert = MealPlanning.alert;
+    private Save save = MealPlanning.save;
+    private boolean launching = true;  //overrides errors for no current meal
+    private boolean sampleFill = MealPlanning.sampleFill;
+    private Resources R = new Resources();    
+    
+    
+    
+    //*****CATALOG*****   
+    public void updateCatalog() {
+        if(Catalog.isEmpty())
+            save.catalogImport(true);
+        checkIngredients();  //varify
+        try {
+        for(int i = 1; i<Catalog.size(); i++) {  //Insertion Sort Algorithm   
+            int j = i;  
+            Meal keyMeal;
+            while (j>0 && Catalog.get(j-1).getID() > Catalog.get(j).getID())  {    //move upwards
+                keyMeal = new Meal(Catalog.get(j));
+                Catalog.remove(j);
+                Catalog.add(j-1,keyMeal);
+                j--; 
+            } 
+        }
+        }catch(NullPointerException exe) {
+            alert.error("Insertion Algorithm Failed sorting Catalog, may have lost meals - NullPointerException - updateCatalog()");
+        }
+        catalogChangeID.setText(catalogEditID.getText());
+        catalogTable.setItems(null);
+        catalogTable.setItems(Catalog);
+        catalogTable.refresh();
+        catalogIngredientsTable.setItems(null);
+        
+        return;
+    }
+
+protected final int specialLast = 5;
+protected final int mealsFirst = 10;
+public int mealsLast;  //changes-set from import
+    
+public void checkIngredients() {
+        if(sampleFill)  //doesn't check
+            return;
+        System.out.println("mealsLastIS: "+mealsLast);
+        boolean mealsErrorFound = false;
+        boolean ingredientsErrorFound = false;
+
+        String missingIngredients = "";
+        String wrongIngredients = "";
+        List<Meal> badMeals = new ArrayList();
+        List<Meal> badIngredients = new ArrayList();
+        
+
+    for (int i = 0; i<Catalog.size(); i++) {
+        if(Catalog.get(i).getID()>specialLast && Catalog.get(i).getID()>=mealsFirst && Catalog.get(i).getID()<=mealsLast) {
+            if(Catalog.get(i).Ingredients.isEmpty()) {    //Is Meal
+                mealsErrorFound = true;
+                badMeals.add(Catalog.get(i));  //linked
+                missingIngredients = missingIngredients + Integer.toString(Catalog.get(i).getID())+"\t"+Catalog.get(i).getName()+"\n";
+            }
+        }
+        else if(Catalog.get(i).getID()>specialLast&& (Catalog.get(i).getID()<mealsFirst || Catalog.get(i).getID()>mealsLast)) {
+            if(!Catalog.get(i).Ingredients.isEmpty()) {   //Is Ingredient
+                ingredientsErrorFound = true;
+                badIngredients.add(Catalog.get(i));  //linked
+                wrongIngredients = wrongIngredients + Integer.toString(Catalog.get(i).getID())+"\t"+Catalog.get(i).getName()+"\n";
+            }
+        }
+    }
+    
+    if(mealsErrorFound || ingredientsErrorFound) {
+        String errorMessage = "";
+        AlertBox alert = new AlertBox();
+        if(mealsErrorFound)
+            errorMessage = "\nThe following Meals were found to be missing Ingredients:\n"+missingIngredients;
+        if(ingredientsErrorFound)
+            errorMessage = errorMessage+"\nThe following Ingredients were found to have Ingredients:\n"+wrongIngredients;
+        
+        if(mealsErrorFound){
+            if(alert.actionRequest(true, "INGREDIENTS ERROR DETECTED:\n"+R.catalogIDRequirements(Catalog,specialLast,mealsFirst,mealsLast)+"\nThe following Meals were found to be missing Ingredients:\n"+missingIngredients, "Attempt to move to end of Ingredients?")){
+                for(int i=0; i<badMeals.size();i++){
+                    badMeals.get(i).setID(Catalog.get((Catalog.size()-1)).getID()+1);
+                }
+                checkIngredients();  //retry
+            } else if(alert.actionRequest(true, "INGREDIENTS ERROR DETECTED:\n"+R.catalogIDRequirements(Catalog,specialLast,mealsFirst,mealsLast)+errorMessage, "Reload Catalog.\nNote: All changes to Catalog will be lost."))  {
+                save.catalogImport(true);
+                checkIngredients();  //retry
+            }
+        }
+
+        if(ingredientsErrorFound) {
+            if(alert.actionRequest(true, "INGREDIENTS ERROR DETECTED:\n"+R.catalogIDRequirements(Catalog,specialLast,mealsFirst,mealsLast)+"\nThe following Ingredients were found to have Ingredients:\n"+wrongIngredients, "Attempt to move to next avaliable Meal ID?")){
+                insertMeals(badIngredients);
+                checkIngredients();  //retry
+            } else if(alert.actionRequest(true, "INGREDIENTS ERROR DETECTED:\n"+R.catalogIDRequirements(Catalog,specialLast,mealsFirst,mealsLast)+errorMessage, "Reload Catalog.\nNote: All changes to Catalog will be lost.")) {
+                save.catalogImport(true);
+                checkIngredients();  //retry
+            }
+        }
+        
+    }
+    return;
+}
+
+private void insertMeals(List<Meal> badIngredients){
+    for(int i=0; i<badIngredients.size();i++){
+        boolean foundPlace = false;
+        for(int j =mealsFirst; j<=mealsLast; j++){
+            boolean avaliable = true;
+            for(int q=0; q<Catalog.size(); q++) {
+                if(Catalog.get(q).getID()==j) {
+                                        System.out.println("Checking: "+j+" & "+Catalog.get(q).getID());
+                    avaliable = false;
+                    break;
+                } 
+            }
+            if(avaliable){
+                foundPlace = true; //reset??
+                            System.out.println("****Match");
+                badIngredients.get(i).setID(j);
+                break;
+            } else
+                foundPlace = false;
+        }
+        if(!foundPlace) {  
+            new AlertBox().notify("Unable to find avaliable Meal ID between "+mealsFirst+" & "+mealsLast+", increasing range to "+Integer.toString(mealsLast+10)+" and increasing all ingredients ID by a factor of 10.");
+            increaseMealSize();
+            insertMeals(badIngredients);
+            return;
+        }
+    }
+    return;
+}
+private void increaseMealSize() {
+    for(int i = Catalog.size()-1; Catalog.get(i).getID()>mealsLast; i--) {
+        Catalog.get(i).print();
+        Catalog.get(i).setID(Catalog.get(i).getID()+10);
+        Catalog.get(i).print();
+    }
+    mealsLast = mealsLast+10;    
+    
+}
+    public void runCatalog() {
+        testNotify.setOnAction(e -> {new AlertBox().notify("Test Notification");});
+        testError.setOnAction(e -> {alert.error("Test Error");});
+        testRequest.setOnAction(e -> {
+            if(new AlertBox().actionRequest(true, "Error detected.  Suggest to perform Action Below:", "Action to Perform"))
+                new AlertBox().notify("Action Taken");
+            else
+                new AlertBox().notify("Action Ignored");
+        });
+
+        
+        
+          catalogRemoveButton.setOnAction( e -> { 
+              try {
+              Meal selectedItem = catalogTable.getSelectionModel().getSelectedItem();
+    //          if(getCatalogEditIDEntry()==selectedItem.getID()) {
+    //                for(int i=0; i<CatalogFoodOnly.size(); i++){
+    //                    if(CatalogFoodOnly.get(i).getID() == selectedItem.getID()) {
+    //                        CatalogFoodOnly.remove(i);
+    //                        break;
+    //                    }
+    //                }         
+            if(new AlertBox().actionConfirmation("Are you sure you want to delete:"+Integer.toString(selectedItem.getID())+" - "+selectedItem.getName()+"?"))
+               catalogTable.getItems().remove(selectedItem);
+    //          }
+              }catch(NullPointerException exe){}
+              });
+
+    //add button in start because must initiate scene change.   
+
+    //Edit button in start because must initiate scene change. 
+
+    //EditID:
+    catalogTable.getSelectionModel().selectedItemProperty().addListener((newSelection) -> {
+        try{
+            if (newSelection  !=  null) {
+            Meal selectedItem = catalogTable.getSelectionModel().getSelectedItem();
+            catalogEditID.setText(Integer.toString(selectedItem.getID()));
+            catalogChangeID.setText(Integer.toString(selectedItem.getID()));
+            catalogIngredientsTable.setItems(selectedItem.Ingredients);
+            menuView.menuCatalogSearch.setText(Integer.toString(selectedItem.getID()));
+            }
+        }catch(NullPointerException e){}
+        });
+//    catalogIngredientsTable.getSelectionModel().selectedItemProperty().addListener((newSelection) -> {
+//        try{
+//            if (newSelection  !=  null) {
+//                Meal selectedItem = catalogIngredientsTable.getSelectionModel().getSelectedItem();
+//                catalogTable.getSelectionModel().select(selectedItem);
+//                catalogEditID.setText(Integer.toString(selectedItem.getID()));
+//                catalogChangeID.setText(Integer.toString(selectedItem.getID()));
+//                menuView.menuCatalogSearch.setText(Integer.toString(selectedItem.getID()));
+//            }
+//              } catch(NumberFormatException exe) {
+//                  exe.printStackTrace();
+//                if(catalogEditID.getText()!=null)
+//                     alert.error("Input is not a valid integer - catalogIngredientsTable.addListner()");
+//             } catch(NullPointerException ex) {
+//                 
+//             }catch(IndexOutOfBoundsException e){}
+//        });
+        
+        
+        catalogEditID.setOnAction(e -> {
+            try {
+                 boolean found=false;
+                 for(int i=0; i<Catalog.size(); i++){
+                     if(Catalog.get(i).getID()== getCatalogEditIDEntry()){
+                         found=true;
+                        catalogTable.getSelectionModel().select(i);
+                        catalogIngredientsTable.setItems(Catalog.get(i).Ingredients);
+                        Catalog.get(i).print();
+                         break;
+                     }
+                 }
+                 if(!found) {
+                    alert.error("Meal not found in Catalog - "+Integer.toString(getCatalogEditIDEntry())+" - Catalog-idText.setOnAction()");
+                    catalogEditID.setText("");
+                    catalogChangeID.setText("");
+                 }
+
+              } catch(NumberFormatException exe) {
+                  exe.printStackTrace();
+                            if(catalogEditID.getText()!=null)
+                                 alert.error("Input is not a valid integer - catalogEditID.setOnAction");
+             } catch(NullPointerException ex) {}
+        });
+
+        //CatalogChangeID
+        catalogChangeID.setOnAction( e -> {
+            try {
+                if(Integer.parseInt(catalogChangeID.getText()) > 0) {                    
+                    boolean found=false;
+                    for(int i=0; i<Catalog.size(); i++){
+                        if(Catalog.get(i).getID()==Integer.parseInt(catalogChangeID.getText())){
+                            found=true;
+                            alert.error("Meal already in Catalog - "+catalogChangeID.getText()+" - " +Catalog.get(i).getName()  +"Meal-idText.setOnAction()");
+                            catalogChangeID.setText(Integer.toString(getCurrentMeal().getID()));
+                            Catalog.get(i).print();
+                            break;
+                        }
+                    }
+                    if(!found) {
+                        getCurrentMeal().setID(Integer.parseInt(catalogChangeID.getText()));
+                        catalogEditID.setText(catalogChangeID.getText());
+                       catalogChangeID.setText(catalogChangeID.getText());
+                        getCurrentMeal().print();
+                        updateCatalog();
+                        catalogTable.getSelectionModel().select(getCurrentMeal());
+                    }
+                } else {
+                    catalogChangeID.setText(Integer.toString(getCurrentMeal().getID()));
+                    alert.error("Invalid Input - ID must be greater than zero. - catalogChangeID.setOnAction");
+                     }
+              } catch(NumberFormatException exe) {
+                  catalogChangeID.setText(Integer.toString(getCurrentMeal().getID()));
+                  exe.printStackTrace();
+               alert.error("Input is not a valid integer - catalogChangeID.setOnAction");
+             }
+           });
+
+           return;
+    }  
+
+    
+    public Scene catalogScene;
+
+
+    public Label catalogTitle = new Label("MEAL CATALOG");
+    public TableView<Meal> catalogTable = new TableView<Meal>();
+    public TextField catalogChangeID = new TextField();
+    public Button catalogNewButton = R.makeButton("NEW", 140, false);
+    public Button catalogEditButton = R.makeButton("EDIT", 140, false);
+    public TextField catalogEditID = new TextField();
+    public Button catalogRemoveButton = R.makeButton("REMOVE", 140, false);
+    public HBox catalogControls = new HBox(45); //Spacing 
+    public TableView<Meal> catalogIngredientsTable = R.makeSimpleReferenceTable();
+    public Button testNotify = R.makeButton("Notify", 65, false);
+    public Button testError = R.makeButton("Error", 65, false);
+    public Button testRequest = R.makeButton("Request", 65, false);
+    public HBox testButtons = new HBox(12);
+    public VBox catalogIngredientsBox = R.fillReferenceTable("Ingredients", catalogIngredientsTable); 
+    public VBox catalogBox = new VBox(10); //Spacing 
+    public HBox wholeCatalog = new HBox(50); //spacing
+    
+
+    
+    public void setCatalog()
+    {
+    
+    
+        //Catalog Table:
+        catalogTitle.setFont(R.TitleFont);
+        catalogTitle.setAlignment(Pos.CENTER);
+        catalogChangeID.setPrefWidth(50);  
+        catalogChangeID.setStyle( "-fx-alignment: CENTER;"); //center allign
+        catalogEditID.setPrefWidth(75);  
+        catalogEditID.setStyle( "-fx-alignment: CENTER;"); //center allign
+
+        TableColumn<Meal, Integer> catalogIDColumn = new TableColumn("ID");
+        catalogIDColumn.getStyleClass().add("Book Antiqua,15");
+        catalogIDColumn.setCellValueFactory(new PropertyValueFactory<Meal, Integer>("ID"));
+        catalogIDColumn.setPrefWidth(50);
+        catalogIDColumn.setStyle( "-fx-alignment: CENTER;"); //center allign
+        TableColumn<Meal, String> catalogNameColumn = new TableColumn("Name");
+        catalogNameColumn.getStyleClass().add("Book Antiqua,15");
+        catalogNameColumn.setCellValueFactory(new PropertyValueFactory<Meal, String>("Name"));
+        catalogNameColumn.setPrefWidth(200);
+        catalogNameColumn.setStyle( "-fx-alignment: CENTER;"); //center allign
+        TableColumn<Meal, String> catalogMColumn = new TableColumn("Meat");
+        catalogMColumn.getStyleClass().add("Book Antiqua,15");
+        catalogMColumn.setCellValueFactory(new PropertyValueFactory<Meal, String>("Meat"));
+//        catalogMColumn.setPrefWidth(100);
+        catalogMColumn.setStyle( "-fx-alignment: CENTER;"); //center allign
+        TableColumn<Meal, String> catalogCColumn = new TableColumn("Carbohydrate");
+        catalogCColumn.getStyleClass().add("Book Antiqua,15");
+        catalogCColumn.setCellValueFactory(new PropertyValueFactory<Meal, String>("Carb"));
+//        catalogCColumn.setPrefWidth(100);
+        catalogCColumn.setStyle( "-fx-alignment: CENTER;"); //center allign
+        TableColumn<Meal, String> catalogCBColumn = new TableColumn("Carb Base");
+        catalogCBColumn.getStyleClass().add("Book Antiqua,15");
+        catalogCBColumn.setCellValueFactory(new PropertyValueFactory<Meal, String>("CarbBase"));
+//        catalogCBColumn.setPrefWidth(75);
+        catalogCBColumn.setStyle( "-fx-alignment: CENTER;"); //center allign
+        TableColumn<Meal, String> catalogVColumn = new TableColumn("Vegetable");
+        catalogVColumn.getStyleClass().add("Book Antiqua,15");
+        catalogVColumn.setCellValueFactory(new PropertyValueFactory<Meal, String>("Vegetable"));
+//        catalogVColumn.setPrefWidth(100);
+        catalogVColumn.setStyle( "-fx-alignment: CENTER;"); //center allign
+        TableColumn<Meal, String> catalogFColumn = new TableColumn("Fruit");
+        catalogFColumn.getStyleClass().add("Book Antiqua,15");
+        catalogFColumn.setCellValueFactory(new PropertyValueFactory<Meal, String>("Fruit"));
+//        catalogFColumn.setPrefWidth(100);
+        catalogFColumn.setStyle( "-fx-alignment: CENTER;"); //center allign
+        TableColumn<Meal, String> catalogBColumn = new TableColumn("NameBrand");
+        catalogBColumn.getStyleClass().add("Book Antiqua,15");
+        catalogBColumn.setCellValueFactory(new PropertyValueFactory<Meal, String>("NameBrand"));
+//        catalogBColumn.setPrefWidth(100);
+        catalogBColumn.setStyle( "-fx-alignment: CENTER;"); //center allign
+        TableColumn<Meal, String> catalogPColumn = new TableColumn("Packable");
+        catalogPColumn.getStyleClass().add("Book Antiqua,15");
+        catalogPColumn.setCellValueFactory(new PropertyValueFactory<Meal, String>("Packable"));
+//        catalogPColumn.setPrefWidth(100);
+        catalogPColumn.setStyle( "-fx-alignment: CENTER;"); //center allign
+      //catalogTable.setItems(Catalog);
+        catalogTable.getColumns().setAll(catalogIDColumn, catalogNameColumn,catalogMColumn,catalogCColumn,catalogCBColumn, catalogVColumn,catalogFColumn,catalogBColumn, catalogPColumn);
+        catalogTable.setPrefWidth(750);
+
+        //Catalog Assembly VBOX
+        catalogControls.getChildren().addAll(catalogChangeID, catalogEditButton, catalogEditID, catalogRemoveButton, catalogNewButton);
+        catalogControls.setAlignment(Pos.CENTER);
+        catalogBox.setAlignment(Pos.CENTER);
+        catalogBox.getChildren().addAll(catalogTitle, catalogTable, catalogControls); 
+        testButtons.getChildren().addAll(testRequest, testNotify, testError);
+        testButtons.setAlignment(Pos.BOTTOM_CENTER); 
+        catalogIngredientsBox.getChildren().add(testButtons);
+
+        wholeCatalog.setAlignment(Pos.TOP_CENTER);
+        wholeCatalog.getChildren().addAll(catalogBox,catalogIngredientsBox);
+
+
+    }
+
+
+    //Return current Meal that is displayed in catalogEditID text field
+    public Meal getCurrentMeal(){
+        if(launching)
+            return new Meal(false, R.theOrigionalMeal);
+        try {
+         boolean found=false;
+         for(int i=0; i<Catalog.size(); i++){
+             if(Catalog.get(i).getID()== getCatalogEditIDEntry()){
+                 found=true;
+                 return Catalog.get(i);
+                }
+         }
+         if(!found){
+                alert.error("***Meal not found in Catalog - "+Integer.toString(getCatalogEditIDEntry())+" - getCurrentMeal()***");
+                alert.error("**-> Returning theOrigionalMeal:");
+                R.theOrigionalMeal.print();
+
+             return new Meal(false, R.theOrigionalMeal);
+         }
+
+
+      } catch(NumberFormatException exe) {
+          exe.printStackTrace();
+         alert.error("***Meal not found in Catalog - "+Integer.toString(getCatalogEditIDEntry())+" - getCurrentMeal()***");
+         alert.error("Input is not a valid integer - getCurrentMeal()");
+         alert.error("***Retrivied from catalogEditID.getText() - "+Integer.toString(getCatalogEditIDEntry())+" - getCurrentMeal()***");
+
+      }  
+    return null;
+    }
+
+    //Convert editID text to Integer
+    public int getCatalogEditIDEntry(){
+     int entry = 0;
+        try{
+            if(Integer.parseInt(catalogEditID.getText()) > 0)                     
+                entry = Integer.parseInt(catalogEditID.getText());
+            else {
+                entry = 0;
+                //if(!errorOverride)
+                //    alert.error("Input is not a valid integer - catalogEditID is zero or less than - getCatalogEditIDEntry()");   //caught elsewhere unneeded
+            }
+          } catch(NumberFormatException ex) {
+              entry = 0;
+         //   if(!errorOverride) 
+                alert.error("Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry()");
+                alert.error("getCatalogEditIDEntry() - Entry: >"+catalogEditID.getText()+"<");
+
+         }
+    return entry;
+    }
+    
+    public boolean IDset(){
+        try{
+           Integer.parseInt(catalogEditID.getText());
+          } catch(NumberFormatException ex) {
+            new AlertBox().notify("Please Select a Catalog Meal to proceed.");
+            return false;
+          }      
+    return true;
+    }
+    
+    public void endLaunching() {
+        launching = false;
+    }
+}

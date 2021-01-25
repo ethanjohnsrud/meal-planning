@@ -1,0 +1,690 @@
+package MealPlanning;
+
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Scanner;
+import static MealPlanning.CatalogView.Catalog;
+//import static mealplanning.MealPlanning.settings;
+import static MealPlanning.MenuView.Menu;
+import static MealPlanning.MenuView.MenuRecent;
+import static MealPlanning.MenuView.MenusList;
+import static MealPlanning.ShoppingListView.ShoppingList;
+import javafx.collections.ObservableList;
+import static MealPlanning.MealPlanning.alert;
+
+
+/**
+ *
+ * @author ethan
+ */
+public class Save {
+    
+    private AlertBox alert = MealPlanning.alert;
+    private String catalogSaveFile = "Meals.csv";
+    private ObservableList<Meal> Catalog = CatalogView.Catalog;
+//    private int CurrentEntry = MealPlanning.currentEntry;
+//    private String menuSaveFile = "Menu.csv";
+//    private String menuPrintFile = "Menu.txt";
+    private ObservableList<Meal> Menu = MenuView.Menu;
+    private String recentSaveFile = "Recent.csv";
+    private ObservableList<Meal> Recent = MenuView.MenuRecent;
+    private String menusListSaveFile = "MenusList.csv";
+    private ObservableList<String> MenusList = MenuView.MenusList;
+    private String shoppingListPrintFile = "ShoppingList.txt";
+    private ObservableList<Meal> ShoppingList = ShoppingListView.ShoppingList;
+    private boolean sampleFill = MealPlanning.sampleFill;
+    private CatalogView catalogView = MealPlanning.catalogView;
+
+    private Resources R = new Resources();
+
+    
+    public Settings importData() {
+        int mealsLastID = 19; //origionally
+        Settings set = new Settings();
+        if(!sampleFill) {
+            set = catalogImport(false);
+//            menuImport("Menu");
+            recentImport(false);
+            menusListImport(false);
+           new AlertBox().notify("><File - Total Load Completed>< - Save.importData()");
+        }
+        return set;
+}
+    
+    public void exportData(String currentMenu, int currentEntry, int mealsLastID) {
+        catalogExport(false, currentEntry, mealsLastID);
+        menuExport(false, currentMenu);
+        mealPrint(false, currentMenu);
+        recentExport(false);
+        shoppingListExport(false);
+        new AlertBox().notify("><File - Total Save Completed>< - Save.importData()");
+//        emailFiles();
+        return;
+    }
+    
+    public Settings catalogImport(boolean prompt) {
+        Settings set = new Settings();
+        int mealsLastID = 0; //originally
+    try {
+        File file = new File(catalogSaveFile);
+        Scanner inputStream = new Scanner(file);
+        inputStream.useDelimiter(",");
+        String lastRead = null;
+        int line = 0;
+        
+        Catalog.clear();
+
+    try {
+        set.setCurrentEntry(Integer.parseInt(inputStream.next()));
+        set.setMealsLast(Integer.parseInt(inputStream.next()));
+        while(inputStream.hasNext()) { 
+           lastRead = inputStream.next();
+            int id = Integer.parseInt(lastRead);  
+            String name = inputStream.next(); 
+            int popularity = Integer.parseInt(inputStream.next()); 
+            int lastUsed = Integer.parseInt(inputStream.next());
+            Boolean meat = Boolean.parseBoolean(inputStream.next());  
+            Boolean carb = Boolean.parseBoolean(inputStream.next()); 
+            Boolean vegetable = Boolean.parseBoolean(inputStream.next()); 
+            Boolean fruit = Boolean.parseBoolean(inputStream.next()); 
+            Boolean brand = Boolean.parseBoolean(inputStream.next());
+            Boolean pack = Boolean.parseBoolean(inputStream.next()); 
+            Boolean base = Boolean.parseBoolean(inputStream.next());
+            Boolean cook = Boolean.parseBoolean(inputStream.next());
+            lastRead=inputStream.next(); //reading in "|"
+
+
+            Meal newMeal = new Meal(true,id,name,popularity, lastUsed, meat,carb,vegetable,fruit,brand,pack,base, cook);
+
+            while(inputStream.hasNext() && (!((lastRead=inputStream.next()).equals("\n")))) {
+                int ingredientID = Integer.parseInt(lastRead); 
+                String ingredientName = inputStream.next();  
+                newMeal.temporaryIngredients.add(new Meal(ingredientID,ingredientName));
+                lastRead=inputStream.next(); //reading in "|"
+            }
+            Catalog.add(newMeal); 
+            line++;            
+        }
+
+        inputStream.close();
+
+        //link Ingredients
+        for (int i =0; i<Catalog.size(); i++) {
+            if(!Catalog.get(i).temporaryIngredients.isEmpty()) {
+                Catalog.get(i).addIngredient();
+            }
+        }
+        
+        if(prompt)
+         new AlertBox().notify("><File - Catalog - Sucessfully Loaded>< - Save.catalogImport()");
+        return set;
+    } catch(NumberFormatException exe) {
+    alert.error("***><><***NumberFormatException - Meal skipped ***><><*** - Save.catalogImport()");
+    alert.error("Line: "+line);
+    alert.error("LastRead: >"+lastRead+"<");
+    String skipped = inputStream.nextLine(); line++;
+    alert.error("Skipped Line: "+ skipped);
+    }
+    } catch(FileNotFoundException ex) {
+    alert.error("***><><***FILE NOT FOUND INPORT FAILED***><><*** - Save.catalogImport()");
+    } catch(NullPointerException ee) {
+        alert.error("***><><***NULL POINTER INPORT FAILED***><><*** - Save.catalogImport()");
+    } catch(NoSuchElementException e) {
+    alert.error("***><><***NumberFormatException INPORT FAILED***><><*** - Save.catalogImport()");               
+    }
+    return set;
+    }
+
+    public boolean catalogExport(boolean prompt, int currentEntry, int mealsLastID) {
+            try {
+                FileWriter writer = new FileWriter(catalogSaveFile, false);
+                BufferedWriter buffer = new BufferedWriter(writer);
+                PrintWriter print = new PrintWriter(buffer); 
+                
+                print.print(Integer.toString(currentEntry)+",");
+                print.print(Integer.toString(mealsLastID)+",");
+                
+                for(int i = 0; i<Catalog.size(); i++) {
+                     print.print(Integer.toString(Catalog.get(i).getID())+","); 
+                     print.print(Catalog.get(i).getName()+",");
+                     print.print(Integer.toString(Catalog.get(i).getPopularity())+",");
+                     print.print(Integer.toString(Catalog.get(i).getLastEntry())+",");
+                     print.print(Boolean.toString(Catalog.get(i).isMeat())+",");
+                     print.print(Boolean.toString(Catalog.get(i).isCarb())+",");
+                     print.print(Boolean.toString(Catalog.get(i).isVegetable())+",");
+                     print.print(Boolean.toString(Catalog.get(i).isFruit())+",");
+                     print.print(Boolean.toString(Catalog.get(i).isNameBrand())+",");
+                     print.print(Boolean.toString(Catalog.get(i).isPackable())+",");
+                     print.print(Boolean.toString(Catalog.get(i).isCarbBase())+",");
+                     print.print(Boolean.toString(Catalog.get(i).isCookingIngredient())+",|,");
+                     if(!Catalog.get(i).Ingredients.isEmpty()) {
+                        Catalog.get(i).Ingredients.forEach(j -> {
+                            print.print(Integer.toString(j.getID())+",");
+                            print.print(j.getName()+",|,");                     
+
+                        });                 
+                     }
+                     print.print("\n,");
+
+                }  
+                     print.flush();
+                     print.close();
+                     if(prompt)
+                        new AlertBox().notify("><File - Catalog - Sucessfully Saved>< - Save.catalogExport()");
+
+                    return true;
+            } catch(NumberFormatException exe) {
+            alert.error("***><><***NumberFormatException EXPORT FAILED***><><*** - Save.catalogExport()");
+            }catch(IOException exe) {
+            alert.error("***><><***IOEXCEPTION EXPORT FAILED***><><*** - Save.catalogExport()");
+            }
+            return false;
+    }
+    
+    public boolean menuImport(boolean prompt, String theMenu) {
+        System.out.println("MENUS IS:"+theMenu);
+    try {
+        File file = new File(theMenu+".csv");
+        Scanner inputStream = new Scanner(file);
+        inputStream.useDelimiter(",");
+        String lastRead = null;
+        String mealNames[] = {"Breakfast", "Monday Lunch", "Monday Dinner", "Tuesday Lunch", "Tuesday Dinner", "Wednesday Lunch", "Wednesday Dinner", "Thursday Lunch", "Thursday Dinner", "Friday Lunch", "Friday Dinner", "Saturday Lunch", "Saturday Dinner", "Sunday Lunch", "Sunday Dinner", "*************", "ERROR_OverFlow_1x", "ERROR_OverFlow_2x", "ERROR_OverFlow_3x"};
+        int currentMealIndex = 0;
+        int line = 0;
+        
+        Menu.clear();
+        
+    while(inputStream.hasNext()) { 
+        try{
+            inputStream.useDelimiter(",");
+           lastRead = inputStream.next();
+            int id = Integer.parseInt(lastRead);  
+            String name = inputStream.next();  
+            Boolean meat = Boolean.parseBoolean(inputStream.next());  
+            Boolean carb = Boolean.parseBoolean(inputStream.next()); 
+            Boolean vegetable = Boolean.parseBoolean(inputStream.next()); 
+            Boolean fruit = Boolean.parseBoolean(inputStream.next()); 
+            lastRead=inputStream.next(); //reading in "|"
+            lastRead=inputStream.next(); //reading in "\n|"
+
+            Meal newMeal;
+            
+            if(id < 0) {
+                newMeal = new Meal(((currentMealIndex+1)*-1),"*****"+mealNames[currentMealIndex]+"*****");
+                currentMealIndex++;               
+            }
+            else
+                newMeal = new Meal(id,name, meat,carb,vegetable,fruit);
+
+            Menu.add(newMeal);
+            line++;
+            
+            
+        } catch(NumberFormatException exe) {
+        alert.error("***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport()");
+        alert.error("Line: "+line);
+        alert.error("LastRead: >"+lastRead+"<");
+        String skipped = inputStream.nextLine(); line++;
+        alert.error("Skipped Line: "+ skipped);
+         }
+    }
+
+    inputStream.close();
+    if(prompt)
+        new AlertBox().notify("><File - Menu - "+theMenu+" - Sucessfully Loaded>< - Save.menuImport()");
+
+    return true;
+    
+    } catch(FileNotFoundException ex) {
+    alert.error("***><><***FILE NOT FOUND INPORT FAILED***><><*** - Save.menuImport()");
+    } catch(NullPointerException ee) {
+        alert.error("***><><***NULL POINTER INPORT FAILED***><><*** - Save.menuImport()");
+    } catch(NoSuchElementException e) {
+    alert.error("***><><***NumberFormatException INPORT FAILED***><><*** - Save.menuImport()");               
+    }
+    return false;
+    }
+
+    public boolean menuExport(boolean prompt, String theMenu) {
+            try {
+                //Write saving file Menu.csv
+                FileWriter writer = new FileWriter(theMenu+".csv", false);
+                BufferedWriter buffer = new BufferedWriter(writer);
+                PrintWriter print = new PrintWriter(buffer);
+
+                for(int i = 0; i<Menu.size(); i++) {
+
+                     print.print(Integer.toString(Menu.get(i).getID())+","); //new start w/,
+                     print.print(Menu.get(i).getName()+",");
+                     print.print(Boolean.toString(Menu.get(i).isMeat())+",");
+                     print.print(Boolean.toString(Menu.get(i).isCarb())+",");
+                     print.print(Boolean.toString(Menu.get(i).isVegetable())+",");
+                     print.print(Boolean.toString(Menu.get(i).isFruit())+",|,");
+                     
+                     print.print("\n,");
+
+                }  
+                     print.flush();
+                     print.close();
+                
+                //write printing file theMenu.txt - Custom
+                Date D = new Date(); //Today's Date
+                SimpleDateFormat sdf = new SimpleDateFormat("MMM-dd-yyyy");
+                String date = sdf.format(D.getTime());
+                FileWriter writer2 = new FileWriter(theMenu+" - "+date+".txt", false);
+                BufferedWriter buffer2 = new BufferedWriter(writer2);
+                PrintWriter print2 = new PrintWriter(buffer2);
+                print2.println("\t----------M-E-N-U----------");
+                print2.println("               "+theMenu);
+                print2.println("ID:\t\tNAME:");
+                for(int i = 0; i<Menu.size(); i++) {
+                    if(Menu.get(i).getID() < 0)
+                        print2.println();
+                    else
+                        print2.print(Integer.toString(Menu.get(i).getID())+"\t");                              
+                    print2.print(Menu.get(i).getName());
+                    print2.println();
+
+                }  
+                     print2.flush();
+                     print2.close();
+                     
+                    if(prompt)
+                        new AlertBox().notify("><File - Menu - "+theMenu+" - Sucessfully Saved>< - Save.menuExport()");
+                     return true;
+                     
+            } catch(NumberFormatException exe) {
+            alert.error("***><><***NumberFormatException EXPORT FAILED***><><***- Menu -");
+            }catch(IOException exe) {
+            alert.error("***><><***IOEXCEPTION EXPORT FAILED***><><***- Menu -");
+            alert.error("-> Perhaps Invalid Menu Name -> Change & Save.");
+            }
+            return false;
+    }
+    public boolean shoppingListExport(boolean prompt) {
+            try {
+                FileWriter writer = new FileWriter(shoppingListPrintFile, false);
+                BufferedWriter buffer = new BufferedWriter(writer);
+                PrintWriter print = new PrintWriter(buffer);
+
+                print.println("\t----------S-H-O-P-P-I-N-G---L-I-S-T----------");
+                print.println();
+                print.println("SERVINGS:\tNAME:                    ID:");
+                for(int i = 0; i<ShoppingList.size(); i++) {
+                    int spaces = 25 - ShoppingList.get(i).getName().length();
+                     print.print(ShoppingList.get(i).getServings()+"\t\t");
+                     print.print(ShoppingList.get(i).getName());
+                     while(spaces>0){
+                         print.print(" ");
+                         spaces--;
+                     }
+                     if(ShoppingList.get(i).getID() != 0)
+                        print.print(Integer.toString(ShoppingList.get(i).getID()));
+                     print.println();
+                }  
+                     print.flush();
+                     print.close();
+                     if(prompt)
+                        new AlertBox().notify("><File - ShoppingList - Sucessfully Saved>< - Save.shoppingListExport()");
+
+                     return true;
+                     
+            } catch(NumberFormatException exe) {
+            alert.error("***><><***NumberFormatException EXPORT FAILED***><><*** - Save.shoppingListExport()");
+            }catch(IOException exe) {
+            alert.error("***><><***IOEXCEPTION EXPORT FAILED***><><*** - Save.shoppingListExport()");
+            }
+            return false;
+    }
+    public boolean mealPrint(boolean prompt, String theMenu)  {
+        try{
+        //write printing file Menu.txt
+                FileWriter writer3 = new FileWriter("Meal.txt", false);
+                BufferedWriter buffer3 = new BufferedWriter(writer3);
+                PrintWriter print3 = new PrintWriter(buffer3);
+                
+                Date D = new Date(); //Today's Date
+                SimpleDateFormat sdf = new SimpleDateFormat("MMM-dd-yyyy");
+                String date = sdf.format(D.getTime());
+                
+                print3.println("- - - - - - - - - - - - - - - M - E - N - U - - - - - - - - - - - - - - -");
+                print3.println("               "+theMenu+"               "+date);
+                print3.println("ID:    NAME:                              ID:    NAME:");
+                //find half way
+                int half = -3;
+                while(R.getFirstIDPlace(Menu, half)<(Menu.size()/2)){half--;}
+                int a = 0;
+                boolean askip = false;
+                int b = R.getFirstIDPlace(Menu, half);                
+                boolean bskip = false;
+                for(int i = 0; i<Menu.size(); i++) {
+                    if(a<R.getFirstIDPlace(Menu, half)){
+                        int offsetID = 7;
+                        if(Menu.get(a).getID() < 10 && Menu.get(a).getID() > 0)
+                            offsetID = offsetID-1;
+                        else if(Menu.get(a).getID() < 100 && Menu.get(a).getID() >= 10)
+                            offsetID = offsetID - 2;
+                        else if(Menu.get(a).getID() >= 100)
+                            offsetID = offsetID - 3;
+                        int spacesFirst = 40 - offsetID - Menu.get(a).getName().length();
+                        if(Menu.get(a).getID() < 0 && !askip){
+                            askip = true;
+                            spacesFirst = spacesFirst + Menu.get(a).getName().length() + 2;
+                            while(offsetID>0){ //spaces to  first name
+                             print3.print(" ");
+                             offsetID--;
+                            }
+                        }else {
+                            if(Menu.get(a).getID() > 0)
+                                print3.print(Integer.toString(Menu.get(a).getID()));
+                            else
+                                spacesFirst = spacesFirst + 2;
+                            while(offsetID>0){ //spaces to  first name
+                                 print3.print(" ");
+                                 offsetID--;
+                             }
+                            print3.print(Menu.get(a).getName());
+                            askip = false;
+                            a++;
+                        }
+                        while(spacesFirst>0){ //spaces to  second column
+                             print3.print(" ");
+                             spacesFirst--;
+                        }
+                        
+                    }else if(b<Menu.size()) {
+                        int spacesFirst = 40+2;
+                        while(spacesFirst>0){ //spaces to  second column
+                             print3.print(" ");
+                             spacesFirst--;
+                        }
+                    }
+                    if(b<Menu.size()) {
+                        int offsetID = 7;
+                        if(Menu.get(b).getID() < 10 && Menu.get(b).getID() > 0)
+                            offsetID = offsetID-1;
+                        else if(Menu.get(b).getID() < 100 && Menu.get(b).getID() >= 10)
+                            offsetID = offsetID - 2;
+                        else if(Menu.get(b).getID() >= 100)
+                            offsetID = offsetID - 3;
+                        if(Menu.get(b).getID() < 0 && !bskip){
+                            bskip = true;
+                            while(offsetID>0){ //spaces to  second name
+                             print3.print(" ");
+                             offsetID--;
+                         }
+                        }else {
+                            if(Menu.get(b).getID() > 0)
+                                print3.print(Integer.toString(Menu.get(b).getID()));     
+                            while(offsetID>0){ //spaces to  second name
+                                 print3.print(" ");
+                                 offsetID--;
+                             }
+                            print3.print(Menu.get(b).getName());
+                            bskip = false;
+                            b++;
+                                                                     
+                    }
+                    }
+                    if(a<R.getFirstIDPlace(Menu, half) || b<Menu.size())
+                        print3.println();
+                }
+                
+                //Add Shopping List to end
+                print3.println();
+                print3.println();
+                print3.println();
+                print3.println();
+                print3.println();
+                print3.println("- - - - - - S - H - O - P - P - I - N - G - - - L - I - S - T - - - - - -");
+                print3.println(theMenu);
+                print3.println("SERVINGS:\tNAME:                    ID:");
+                for(int i = 0; i<ShoppingList.size(); i++) {
+                    int spaces = 25 - ShoppingList.get(i).getName().length();
+                     print3.print(ShoppingList.get(i).getServings()+"\t\t");
+                     print3.print(ShoppingList.get(i).getName());
+                     while(spaces>0){
+                         print3.print(" ");
+                         spaces--;
+                     }
+                     if(ShoppingList.get(i).getID() != 0)
+                        print3.print(Integer.toString(ShoppingList.get(i).getID()));
+                     print3.println();
+                }  
+                     print3.flush();
+                     print3.close();
+                     if(prompt)
+                        new AlertBox().notify("><File - Meal.txt - "+theMenu+" - Sucessfully Exported>< - Save.mealPrint()");
+                     return true;
+                     
+            } catch(NumberFormatException exe) {
+            alert.error("***><><***NumberFormatException EXPORT FAILED***><><***- Menu -");
+            }catch(IOException exe) {
+            alert.error("***><><***IOEXCEPTION EXPORT FAILED***><><***- MealPrint() -");
+            }
+            return false;
+    }
+    
+    public boolean recentImport(boolean prompt) {
+    try {
+        File file = new File(recentSaveFile);
+        Scanner inputStream = new Scanner(file);
+        inputStream.useDelimiter(",");
+        String lastRead = null;
+        int line = 0;
+        
+        Recent.clear();
+
+    while(inputStream.hasNext()) { //not eof
+        try{
+            lastRead = inputStream.next();
+            int id = Integer.parseInt(lastRead);  
+            String name = inputStream.next();
+            inputStream.next();  //  |  = next element
+            Meal newMeal;
+            
+            newMeal = new Meal(id,name);
+
+            Recent.add(newMeal);
+            line++;
+
+        } catch(NumberFormatException exe) {
+            alert.error("***><><***NumberFormatException - Meal skipped ***><><*** - Save.recentImport()");
+            alert.error("Line: "+line);
+            alert.error("LastRead: >"+lastRead+"<");
+            String skipped = inputStream.nextLine(); line++;
+            alert.error("Skipped Line: "+ skipped);
+        }
+    }
+
+    inputStream.close();
+    if(prompt)
+        new AlertBox().notify("><File - RecentList - Sucessfully Loaded>< - Save.recentImport()");
+
+    return true;
+    
+    } catch(FileNotFoundException ex) {
+    alert.error("***><><***FILE NOT FOUND INPORT FAILED***><><*** - Save.recentImport()");
+    } catch(NullPointerException ee) {
+        alert.error("***><><***NULL POINTER INPORT FAILED***><><*** - Save.recentImport()");
+    } catch(NoSuchElementException e) {
+    alert.error("***><><***NumberFormatException INPORT FAILED***><><*** - Save.recentImport()");               
+    }
+    return false;
+    }
+    
+    public boolean recentExport(boolean prompt) {
+            try {
+                FileWriter writer = new FileWriter(recentSaveFile, false);
+                BufferedWriter buffer = new BufferedWriter(writer);
+                PrintWriter print = new PrintWriter(buffer);                    
+  
+                for(int i = 0; i<Recent.size(); i++) {
+                    print.print(Integer.toString(Recent.get(i).getID())+",");                              
+                    print.print(Recent.get(i).getName()+",\n,");
+
+                }  
+                print.flush();
+                print.close(); 
+                if(prompt)
+                    new AlertBox().notify("><File - RecentList - Sucessfully Saved>< - Save.recentExport()");
+                return true;    
+            } catch(NumberFormatException exe) {
+            alert.error("***><><***NumberFormatException EXPORT FAILED***><><*** - Save.recentExport()");
+            }catch(IOException exe) {
+            alert.error("***><><***IOEXCEPTION EXPORT FAILED***><><*** - Save.recentExport()");
+            }
+            return false;
+    }
+    
+    
+    public boolean menusListImport(boolean prompt) {
+    try {
+        File file = new File(menusListSaveFile);
+        Scanner inputStream = new Scanner(file);
+        inputStream.useDelimiter(",");
+        String lastRead = null;
+        int line = 0;
+        
+        MenusList.clear();
+
+    while(inputStream.hasNext()) { //not eof
+        try{
+            MenusList.add(inputStream.next());
+            inputStream.next();  //  \n  = next element
+            
+            line++;
+
+        } catch(NumberFormatException exe) {
+            alert.error("***><><***NumberFormatException - Meal skipped ***><><*** - Save.menusListImport()");
+            alert.error("Line: "+line);
+            alert.error("LastRead: >"+lastRead+"<");
+            String skipped = inputStream.nextLine(); line++;
+            alert.error("Skipped Line: "+ skipped);
+        }
+    }
+
+    inputStream.close();
+    if(prompt)
+        new AlertBox().notify("><File - MenusList - Sucessfully Loaded>< - Save.menusListImport()");
+    return true;
+    
+    } catch(FileNotFoundException ex) {
+    alert.error("***><><***FILE NOT FOUND INPORT FAILED***><><*** - Save.menusListImport()");
+    } catch(NullPointerException ee) {
+        alert.error("***><><***NULL POINTER INPORT FAILED***><><*** - Save.menusListImport()");
+    } catch(NoSuchElementException e) {
+    alert.error("***><><***NumberFormatException INPORT FAILED***><><*** - Save.menusListImport()");               
+    }
+    return false;
+    }
+    
+    public boolean menusListExport(boolean prompt) {
+            try {
+                FileWriter writer = new FileWriter(menusListSaveFile, false);
+                BufferedWriter buffer = new BufferedWriter(writer);
+                PrintWriter print = new PrintWriter(buffer);                    
+  
+                for(int i = 0; i<MenusList.size(); i++) {
+                    print.print(MenusList.get(i)+",\n,");
+                }  
+                print.flush();
+                print.close(); 
+                if(prompt)
+                     new AlertBox().notify("><File - MenusList - Sucessfully Saved>< - Save.recentExport()");
+                return true;    
+            } catch(NumberFormatException exe) {
+            alert.error("***><><***NumberFormatException EXPORT FAILED***><><*** - Save.menusListExport()");
+            }catch(IOException exe) {
+            alert.error("***><><***IOEXCEPTION EXPORT FAILED***><><*** - Save.menusListExport()");
+            }
+            return false;
+    }
+    
+    public void emailFiles() {
+//      // Recipient's email ID needs to be mentioned.
+//      String to = "ethanjohnsrud@gmail.com";
+//
+//      // Sender's email ID needs to be mentioned
+//      String from = "ethanjohnsrud@gmail.com";
+//
+//      final String username = "ethanjohnsrud";//change accordingly
+//      final String password = "Fd$82018";//change accordingly
+//
+//      // Assuming you are sending email through relay.jangosmtp.net
+//      String host = "relay.jangosmtp.net";
+//
+//      Properties props = new Properties();
+//      props.put("mail.smtp.auth", "true");
+//      props.put("mail.smtp.starttls.enable", "true");
+//      props.put("mail.smtp.host", host);
+//      props.put("mail.smtp.port", "25");
+//
+//      // Get the Session object.
+//      Session session = Session.getInstance(props,
+//         new javax.mail.Authenticator() {
+//            protected PasswordAuthentication getPasswordAuthentication() {
+//               return new PasswordAuthentication(username, password);
+//            }
+//         });
+//
+//      try {
+//         // Create a default MimeMessage object.
+//         javax.mail.Message message = new MimeMessage(session);
+//
+//         // Set From: header field of the header.
+//         message.setFrom(new InternetAddress(from));
+//
+//         // Set To: header field of the header.
+//         message.setRecipients(javax.mail.Message.RecipientType.TO,
+//            InternetAddress.parse(to));
+//
+//         // Set Subject: header field
+//         Date date = new Date();
+//         message.setSubject("MealPlanning"+" - "+new Timestamp(date.getTime()));
+//
+//         // Create the message part
+//         BodyPart messageBodyPart = new MimeBodyPart();
+//
+//         // Now set the actual message
+//         messageBodyPart.setText("Files!");
+//
+//         // Create a multipar message
+//         Multipart multipart = new MimeMultipart();
+//
+//         // Set text message part
+//         multipart.addBodyPart(messageBodyPart);
+//
+//         // Part two is attachment
+////         messageBodyPart = new MimeBodyPart();
+////         String filename = "/home/manisha/file.txt";
+////         DataSource source = new FileDataSource(filename);
+////         messageBodyPart.setDataHandler(new DataHandler(source));
+////         messageBodyPart.setFileName(filename);
+////         multipart.addBodyPart(messageBodyPart);
+//
+//         // Send the complete message parts
+//         message.setContent(multipart);
+//
+//         // Send message
+//         Transport.send(message);
+//
+//         new AlertBox().notify("Email of Files Successfully Sent to: "+to);
+//  
+//      } catch (javax.mail.MessagingException e) {
+//         throw new RuntimeException(e);
+//      }
+   }
+  
+    
+}

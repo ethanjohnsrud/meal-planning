@@ -1,0 +1,128 @@
+	----------M-E-N-U----------
+               4-8---4-14-2019
+ID:		NAME:
+
+*****Breakfast*****
+
+*****Monday Lunch*****
+55	     -Grapes
+53	     -Oranges
+0	     -*Dressing OK
+0	     -VEGETARIAN DAY
+10	Salad
+45	     -Lettuce
+46	     -Pea Pods
+43	     -Cucumber
+44	     -Carrots
+42	     -Tomato
+41	     -Pepper
+
+*****Monday Dinner*****
+9	     -Milk
+0	     -VEGETARIAN DAY
+15	Stir-Fry
+49	     -Onion
+44	     -Carrots
+41	     -Pepper
+
+*****Tuesday Lunch*****
+52	     -Apple
+55	     -Grapes
+46	     -Pea Pods
+41	     -Pepper
+44	     -Carrots
+43	     -Cucumber
+0	     -VEGETARIAN DAY
+
+*****Tuesday Dinner*****
+9	     -Milk
+0	     -VEGETARIAN DAY
+15	Stir-Fry
+49	     -Onion
+44	     -Carrots
+41	     -Pepper
+
+*****Wednesday Lunch*****
+55	     -Grapes
+53	     -Oranges
+0	     -*Dressing OK
+0	     -VEGETARIAN DAY
+10	Salad
+45	     -Lettuce
+46	     -Pea Pods
+43	     -Cucumber
+44	     -Carrots
+42	     -Tomato
+41	     -Pepper
+
+*****Wednesday Dinner*****
+9	     -Milk
+0	     -VEGETARIAN DAY
+15	Stir-Fry
+49	     -Onion
+44	     -Carrots
+41	     -Pepper
+
+*****Thursday Lunch*****
+52	     -Apple
+14	Sandwich
+38	     -Bread
+41	     -Pepper
+83	     -Tuna
+
+*****Thursday Dinner*****
+28	Enchiladas
+0	     -Shredded Cheese
+0	     -Enchilada Sauce
+85	     -Garlic
+70	     -Rice
+49	     -Onion
+41	     -Pepper
+37	     -Tortilla
+33	     -Chicken
+
+*****Friday Lunch*****
+52	     -Apple
+0	     -FOOD COURT
+
+*****Friday Dinner*****
+0	     -Made Taco Meat
+12	Taco
+42	     -Tomato
+41	     -Pepper
+
+*****Saturday Lunch*****
+52	     -Apple
+20	French Toast
+30	     -Eggs
+9	     -Milk
+
+*****Saturday Dinner*****
+28	Enchiladas
+0	     -Shredded Cheese
+0	     -Enchilada Sauce
+85	     -Garlic
+70	     -Rice
+49	     -Onion
+41	     -Pepper
+37	     -Tortilla
+33	     -Chicken
+
+*****Sunday Lunch*****
+52	     -Apple
+20	French Toast
+30	     -Eggs
+9	     -Milk
+
+*****Sunday Dinner*****
+28	Enchiladas
+0	     -Shredded Cheese
+0	     -Enchilada Sauce
+85	     -Garlic
+70	     -Rice
+49	     -Onion
+41	     -Pepper
+37	     -Tortilla
+33	     -Chicken
+
+***********************

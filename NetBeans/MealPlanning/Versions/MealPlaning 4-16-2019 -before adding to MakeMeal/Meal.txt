@@ -1,0 +1,63 @@
+- - - - - - - - - - - - - - - M - E - N - U - - - - - - - - - - - - - - -
+               Presidents Week
+ID:    NAME:                              ID:    NAME:
+                                                 
+       *****Breakfast*****                       *****Wednesday Dinner*****
+40          -Frozen Vegetables            70          -Rice
+17     Burger                                         -Chinese Mix
+82          -Hard Cheese                         
+49          -Onion                               *****Thursday Lunch*****
+42          -Tomato                       63          -Cookies
+39          -Buns                         56          -Pineapple
+32          -Hamburger                    14     Sandwich
+                                          41          -Pepper
+       *****Monday Lunch*****             83          -Tuna
+63          -Cookies                      39          -Buns
+55          -Grapes                              
+14     Sandwich                                  *****Thursday Dinner*****
+82          -Hard Cheese                  12     Taco
+41          -Pepper                       78          -Baked Beans
+39          -Buns                         49          -Onion
+35          -Sliced Meat                  44          -Carrots
+                                          42          -Tomato
+       *****Monday Dinner*****            41          -Pepper
+70          -Rice                         32          -Hamburger
+            -Chinese Mix                         
+                                                 *****Friday Lunch*****
+       *****Tuesday Lunch*****            63          -Cookies
+63          -Cookies                      55          -Grapes
+56          -Pineapple                    14     Sandwich
+14     Sandwich                           82          -Hard Cheese
+41          -Pepper                       41          -Pepper
+83          -Tuna                         39          -Buns
+39          -Buns                         35          -Sliced Meat
+                                                 
+       *****Tuesday Dinner*****                  *****Friday Dinner*****
+40          -Frozen Vegetables                        -Snowmobiling in Bemidji :)
+17     Burger                                    
+82          -Hard Cheese                         *****Saturday Lunch*****
+49          -Onion                                    -Snowmobiling in Bemidji :)
+42          -Tomato                              
+39          -Buns                                *****Saturday Dinner*****
+32          -Hamburger                                -Snowmobiling in Bemidji :)
+                                                 
+       *****Wednesday Lunch*****                 *****Sunday Lunch*****
+63          -Cookies                                  -Snowmobiling in Bemidji :)
+55          -Grapes                              
+14     Sandwich                                  *****Sunday Dinner*****
+82          -Hard Cheese                  12     Taco
+41          -Pepper                       78          -Baked Beans
+39          -Buns                         49          -Onion
+35          -Sliced Meat                  44          -Carrots
+                                          42          -Tomato
+                                          41          -Pepper
+                                          32          -Hamburger
+                                                 
+                                                 ***********************
+
+
+
+
+- - - - - - S - H - O - P - P - I - N - G - - - L - I - S - T - - - - - -
+Presidents Week
+SERVINGS:	NAME:                    ID:

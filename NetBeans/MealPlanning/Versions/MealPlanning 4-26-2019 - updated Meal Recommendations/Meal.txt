@@ -1,0 +1,60 @@
+- - - - - - - - - - - - - - - M - E - N - U - - - - - - - - - - - - - - -
+               4-23---4-28-2019               Apr-26-2019
+ID:    NAME:                              ID:    NAME:
+                                                 
+       *****Breakfast*****                       *****Friday Lunch*****
+30          -Eggs                                     -FOOD COURT
+25     Cereal                                    
+9           -Milk                               *****Friday Dinner*****
+                                                      -canned Green Beans
+       *****Monday Lunch*****             11     Pasta - Chicken - Noodles
+                                          85          -Garlic
+       *****Monday Dinner*****            74          -Alfredo Sauce
+                                          71          -Noodles
+       *****Tuesday Lunch*****            49          -Onion
+64          -Chips - Pretzels             33          -Chicken
+44          -Carrots                             
+52          -Apple                               *****Saturday Lunch*****
+14     Sandwich - Sliced Meat - Bread     19     Full Scrammbled Eggs - Eggs
+41          -Pepper                       49          -Onion
+38          -Bread                        41          -Pepper
+35          -Sliced Meat                  30          -Eggs
+                                          20     French Toast
+       *****Tuesday Dinner*****           30          -Eggs
+            -Made Green Beans             9           -Milk
+            -Made Pasta Dish                     
+            -Made Steak                          *****Saturday Dinner*****
+                                          53          -Oranges
+       *****Wednesday Lunch*****                      -Can of Kindey Beans
+            -FOOD COURT                   40          -Frozen Vegetables
+                                          12     Taco - Hamburger - Tortilla
+       *****Wednesday Dinner*****         42          -Tomato
+40          -Frozen Vegetables            41          -Pepper
+            -*Carrots                     37          -Tortilla
+13     Rice & Meat - Fish - Rice                 
+70          -Rice                                *****Sunday Lunch*****
+31          -Fish                         88          -Soup Crackers
+                                                      -Large Soup Can and Soup
+       *****Thursday Lunch*****                  
+64          -Chips - Pretzels                    *****Sunday Dinner*****
+44          -Carrots                                  -canned Green Beans
+53          -Oranges                      53          -Oranges
+14     Sandwich - Sliced Meat - Bread     11     Pasta - Chicken - Noodles
+41          -Pepper                       85          -Garlic
+38          -Bread                        74          -Alfredo Sauce
+35          -Sliced Meat                  71          -Noodles
+                                          49          -Onion
+       *****Thursday Dinner*****          33          -Chicken
+            -Can of Kindey Beans                 
+40          -Frozen Vegetables                   ***********************
+12     Taco - Hamburger - Tortilla        
+42          -Tomato                       
+41          -Pepper                       
+37          -Tortilla                     
+
+
+
+
+- - - - - - S - H - O - P - P - I - N - G - - - L - I - S - T - - - - - -
+4-23---4-28-2019
+SERVINGS:	NAME:                    ID:

@@ -1,0 +1,95 @@
+	----------M-E-N-U----------
+               3-4-19---3-9-2019
+ID:		NAME:
+
+*****Breakfast*****
+36	     -Sausage
+30	     -Eggs
+25	Cereal
+9	     -Milk
+
+*****Monday Lunch*****
+
+*****Monday Dinner*****
+0	     -Frozen Taco
+
+*****Tuesday Lunch*****
+14	Sandwich
+38	     -Bread
+82	     -Hard Cheese
+41	     -Pepper
+35	     -Sliced Meat
+
+*****Tuesday Dinner*****
+0	     -Finish Wild Rice Soup
+
+*****Wednesday Lunch*****
+53	     -Oranges
+10	Salad
+79	     -Crutons
+42	     -Tomato
+41	     -Pepper
+76	     -Dried Cranberries
+44	     -Carrots
+45	     -Lettuce
+34	     -Bacon
+
+*****Wednesday Dinner*****
+40	     -Frozen Vegetables
+13	Rice & Meat
+70	     -Rice
+31	     -Fish
+
+*****Thursday Lunch*****
+53	     -Oranges
+14	Sandwich
+38	     -Bread
+82	     -Hard Cheese
+41	     -Pepper
+35	     -Sliced Meat
+
+*****Thursday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta
+73	     -Diced Tomatoes
+72	     -Spaghetti Sauce
+71	     -Noodles
+33	     -Chicken
+
+*****Friday Lunch*****
+53	     -Oranges
+10	Salad
+79	     -Crutons
+83	     -Tuna
+42	     -Tomato
+41	     -Pepper
+76	     -Dried Cranberries
+44	     -Carrots
+45	     -Lettuce
+
+*****Friday Dinner*****
+40	     -Frozen Vegetables
+13	Rice & Meat
+70	     -Rice
+31	     -Fish
+
+*****Saturday Lunch*****
+53	     -Oranges
+20	French Toast
+0	     -French Toast Bread
+30	     -Eggs
+9	     -Milk
+
+*****Saturday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta
+73	     -Diced Tomatoes
+72	     -Spaghetti Sauce
+71	     -Noodles
+33	     -Chicken
+
+*****Sunday Lunch*****
+
+*****Sunday Dinner*****
+
+***********************

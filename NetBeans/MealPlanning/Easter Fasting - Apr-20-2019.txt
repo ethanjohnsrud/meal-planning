@@ -1,0 +1,73 @@
+	----------M-E-N-U----------
+               Easter Fasting
+ID:		NAME:
+
+*****Breakfast*****
+0	     -2x Onions
+0	     -2 Cups Parsnips
+0	     -2 Cups Turnips
+0	     -2 Cups Leeks
+0	     -2 Cups Cabbage
+0	     -2 Cups Barley Flakes
+0	     -2 Cups Rolled Oats
+0	     -2-4 Bay Leaves
+0	     -4qts of Chicken Broth
+0	     -2 Cans of Kidney Beans
+85	     -Garlic
+44	     -Carrots
+
+*****Monday Lunch*****
+0	     -Milk
+0	     -3x Juices
+0	     -Loaf of Nutrious Bread
+0	     -6x Eggs
+
+*****Monday Dinner*****
+0	     -MORE POTTAGE :)
+
+*****Tuesday Lunch*****
+0	     -MORE POTTAGE :)
+
+*****Tuesday Dinner*****
+0	     -MORE POTTAGE :)
+
+*****Wednesday Lunch*****
+0	     -MORE POTTAGE :)
+
+*****Wednesday Dinner*****
+0	     -MORE POTTAGE :)
+
+*****Thursday Lunch*****
+0	     -MORE POTTAGE :)
+
+*****Thursday Dinner*****
+0	     -MORE POTTAGE :)
+
+*****Friday Lunch*****
+0	     -MORE POTTAGE :)
+
+*****Friday Dinner*****
+0	     -MORE POTTAGE :)
+
+*****Saturday Lunch*****
+19	Full Scrammbled Eggs
+49	     -Onion
+41	     -Pepper
+34	     -Bacon
+30	     -Eggs
+
+*****Saturday Dinner*****
+0	     -Salsa
+0	     -MADE TACO MEAT
+12	Taco
+42	     -Tomato
+37	     -Tortilla
+
+*****Sunday Lunch*****
+0	     -Something Frozen :)
+
+*****Sunday Dinner*****
+0	     -MADE FROZEN CORN
+0	     -MADE ENCHILADAS
+
+***********************

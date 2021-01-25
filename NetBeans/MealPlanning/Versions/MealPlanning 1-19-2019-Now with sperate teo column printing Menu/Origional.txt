@@ -1,0 +1,55 @@
+	----------M-E-N-U----------
+
+ID:		NAME:
+
+*****Breakfast*****
+58	     -Ice Cream
+5	Breakfast
+45	     -Grapes
+18	     -Bread
+10	     -Eggs
+9	     -Milk
+18	     -Bread
+9	     -Milk
+
+*****Monday Lunch*****
+0	     -Wings
+0	     -Grandma's Lopster tale
+
+*****Monday Dinner*****
+22	Taco
+32	     -Tomato
+17	     -Tortilla
+
+*****Tuesday Lunch*****
+
+*****Tuesday Dinner*****
+0	     -Wings
+72	     -Hard Cheese
+32	     -Tomato
+19	     -Buns
+
+*****Wednessday Lunch*****
+60	     -Rice
+68	     -Baked Beans
+31	     -Pepper
+13	     -Chicken
+23	Rice & Meat
+11	     -Fish
+27	Burger
+39	     -Onion
+31	     -Pepper
+12	     -Hamburger
+26	French Toast
+10	     -Eggs
+
+*****Wednessday Dinner*****
+60	     -Rice
+
+*****Thursday Lunch*****
+18	     -Bread
+9	     -Milk
+11	     -Fish
+18	     -Bread
+9	     -Milk
+16	     -Sausage

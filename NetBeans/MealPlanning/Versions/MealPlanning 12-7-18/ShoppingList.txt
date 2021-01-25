@@ -1,0 +1,31 @@
+	----------S-H-O-P-P-I-N-G---L-I-S-T----------
+
+QUANTITY:	NAME:		ID:
+1		Juice		8
+2		Milk		9
+1		Eggs		10
+1		Cereal		0
+1		Bannana		41
+3		Bread		18
+4		Bacon		14
+3		Grapes		45
+4		Crutons		69
+4		Dried Cranberries		66
+7		Carrots		34
+4		Cucumber		33
+5		Tomato		32
+7		Pepper		31
+2		Chicken		13
+5		Lettuce		35
+3		Onion		39
+5		Lunch Meat		15
+4		Rice		60
+5		Oranges		43
+2		Hard Cheese		72
+3		Frozen Vegetables		30
+3		Buns		19
+3		Hamburger		12
+1		Sloppy Joe Mix		0
+1		Sloppy Joe Mix		0
+1		Tuna		73
+1		Sloppy Joe Mix		0

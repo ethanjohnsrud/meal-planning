@@ -1,0 +1,99 @@
+	----------M-E-N-U----------
+               4-23---4-28-2019
+ID:		NAME:
+
+*****Breakfast*****
+30	     -Eggs
+25	Cereal
+9	     -Milk
+
+*****Monday Lunch*****
+
+*****Monday Dinner*****
+
+*****Tuesday Lunch*****
+64	     -Chips - Pretzels
+44	     -Carrots
+52	     -Apple
+14	Sandwich - Sliced Meat - Bread
+41	     -Pepper
+38	     -Bread
+35	     -Sliced Meat
+
+*****Tuesday Dinner*****
+0	     -Made Green Beans
+0	     -Made Pasta Dish
+0	     -Made Steak
+
+*****Wednesday Lunch*****
+0	     -FOOD COURT
+
+*****Wednesday Dinner*****
+40	     -Frozen Vegetables
+0	     -*Carrots
+13	Rice & Meat - Fish - Rice
+70	     -Rice
+31	     -Fish
+
+*****Thursday Lunch*****
+64	     -Chips - Pretzels
+44	     -Carrots
+53	     -Oranges
+14	Sandwich - Sliced Meat - Bread
+41	     -Pepper
+38	     -Bread
+35	     -Sliced Meat
+
+*****Thursday Dinner*****
+0	     -Can of Kindey Beans
+40	     -Frozen Vegetables
+12	Taco - Hamburger - Tortilla
+42	     -Tomato
+41	     -Pepper
+37	     -Tortilla
+
+*****Friday Lunch*****
+0	     -FOOD COURT
+
+*****Friday Dinner*****
+0	     -canned Green Beans
+11	Pasta - Chicken - Noodles
+85	     -Garlic
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+33	     -Chicken
+
+*****Saturday Lunch*****
+19	Full Scrammbled Eggs - Eggs
+49	     -Onion
+41	     -Pepper
+30	     -Eggs
+20	French Toast
+30	     -Eggs
+9	     -Milk
+
+*****Saturday Dinner*****
+53	     -Oranges
+0	     -Can of Kindey Beans
+40	     -Frozen Vegetables
+12	Taco - Hamburger - Tortilla
+42	     -Tomato
+41	     -Pepper
+37	     -Tortilla
+
+*****Sunday Lunch*****
+88	     -Soup Crackers
+0	     -Large Soup Can and Soup
+
+*****Sunday Dinner*****
+0	     -canned Green Beans
+53	     -Oranges
+11	Pasta - Chicken - Noodles
+85	     -Garlic
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+33	     -Chicken
+
+***********************

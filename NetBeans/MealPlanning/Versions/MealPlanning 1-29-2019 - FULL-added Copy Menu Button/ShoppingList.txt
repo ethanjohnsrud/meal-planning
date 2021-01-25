@@ -1,0 +1,36 @@
+	----------S-H-O-P-P-I-N-G---L-I-S-T----------
+
+SERVINGS:	NAME:                    ID:
+5		Buns                     39
+1		Soup Crackers            88
+1		Sausage                  36
+2		Hamburger                32
+2		Chicken                  33
+2		Sliced Meat              35
+1		Fish                     31
+2		Sloppy Joe               18
+2		Sandwich                 14
+5		Milk                     9
+1		Tuna                     83
+3		Pineapple                56
+1		Dried Cranberries        76
+2		Oranges                  53
+2		Juice                    8
+11		Pepper                   41
+3		Tomato                   42
+5		Onion                    49
+5		Carrots                  44
+3		Lettuce                  45
+3		Cucumber                 43
+2		Frozen Vegetables        40
+1		Diced Tomatoes           73
+5		Hard Cheese              82
+2		Rice                     70
+1		Crutons                  79
+5		Noodles                  71
+2		French Toast             16
+1		Wild Rice Soup           
+1		Grandma's Lopster        
+1		Spaghetti Sauce          72
+2		Left Overs               
+1		1/4 Cup of Flour         

@@ -1,0 +1,132 @@
+	----------M-E-N-U----------
+               Nov_11
+ID:		NAME:
+
+*****Breakfast*****
+9	     -Milk
+36	     -Sausage
+66	     -Brownies
+
+*****Monday Lunch*****
+0	     -CRUTONS
+10	Salad - Tuna - Lettuce
+83	     -Tuna
+79	     -Crutons
+46	     -Pea Pods
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+
+*****Monday Dinner*****
+41	     -Pepper
+13	Rice & Meat - Fish - Rice
+70	     -Rice
+31	     -Fish
+
+*****Tuesday Lunch*****
+55	     -Grapes
+14	Sandwich - Tuna - Buns
+83	     -Tuna
+82	     -Hard Cheese
+42	     -Tomato
+41	     -Pepper
+39	     -Buns
+
+*****Tuesday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta - Chicken - Noodles
+85	     -Garlic
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+41	     -Pepper
+33	     -Chicken
+
+*****Wednesday Lunch*****
+0	     -CRUTONS
+10	Salad - Tuna - Lettuce
+83	     -Tuna
+79	     -Crutons
+46	     -Pea Pods
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+
+*****Wednesday Dinner*****
+41	     -Pepper
+13	Rice & Meat - Fish - Rice
+70	     -Rice
+31	     -Fish
+
+*****Thursday Lunch*****
+55	     -Grapes
+14	Sandwich - Tuna - Buns
+83	     -Tuna
+82	     -Hard Cheese
+42	     -Tomato
+41	     -Pepper
+39	     -Buns
+
+*****Thursday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta - Chicken - Noodles
+85	     -Garlic
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+41	     -Pepper
+33	     -Chicken
+
+*****Friday Lunch*****
+0	     -CRUTONS
+10	Salad - Tuna - Lettuce
+83	     -Tuna
+79	     -Crutons
+46	     -Pea Pods
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+
+*****Friday Dinner*****
+41	     -Pepper
+13	Rice & Meat - Fish - Rice
+70	     -Rice
+31	     -Fish
+
+*****Saturday Lunch*****
+0	     -Late Breakfast :)
+
+*****Saturday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta - Chicken - Noodles
+85	     -Garlic
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+41	     -Pepper
+33	     -Chicken
+
+*****Sunday Lunch*****
+0	     -CRUTONS
+10	Salad - Tuna - Lettuce
+83	     -Tuna
+79	     -Crutons
+46	     -Pea Pods
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+
+*****Sunday Dinner*****
+71	     -Noodles
+0	     -Made Spagetti Sauce & Meat
+53	     -Oranges
+
+***********************

@@ -1,0 +1,125 @@
+	----------M-E-N-U----------
+               hey dude
+ID:		NAME:
+
+*****Breakfast*****
+
+*****Monday Lunch*****
+15	Stir-Fry
+60	     -Rice
+39	     -Onion
+34	     -Carrots
+31	     -Pepper
+23	     -Chicken
+
+*****Monday Dinner*****
+12	Taco
+68	     -Baked Beans
+39	     -Onion
+34	     -Carrots
+32	     -Tomato
+31	     -Pepper
+72	     -Hard Cheese
+39	     -Onion
+32	     -Tomato
+31	     -Pepper
+29	     -Buns
+22	     -Hamburger
+
+*****Tuesday Lunch*****
+
+*****Tuesday Dinner*****
+
+*****Wednessday Lunch*****
+
+*****Wednessday Dinner*****
+15	Stir-Fry
+60	     -Rice
+39	     -Onion
+34	     -Carrots
+31	     -Pepper
+23	     -Chicken
+
+*****Thursday Lunch*****
+15	Stir-Fry
+60	     -Rice
+39	     -Onion
+34	     -Carrots
+31	     -Pepper
+23	     -Chicken
+
+*****Thursday Dinner*****
+15	Stir-Fry
+60	     -Rice
+39	     -Onion
+34	     -Carrots
+31	     -Pepper
+23	     -Chicken
+
+*****Friday Lunch*****
+15	Stir-Fry
+60	     -Rice
+39	     -Onion
+34	     -Carrots
+31	     -Pepper
+23	     -Chicken
+
+*****Friday Dinner*****
+12	Taco
+68	     -Baked Beans
+39	     -Onion
+34	     -Carrots
+32	     -Tomato
+31	     -Pepper
+72	     -Hard Cheese
+39	     -Onion
+32	     -Tomato
+31	     -Pepper
+29	     -Buns
+22	     -Hamburger
+
+*****Saturday Lunch*****
+12	Taco
+68	     -Baked Beans
+39	     -Onion
+34	     -Carrots
+32	     -Tomato
+31	     -Pepper
+72	     -Hard Cheese
+39	     -Onion
+32	     -Tomato
+31	     -Pepper
+29	     -Buns
+22	     -Hamburger
+
+*****Saturday Dinner*****
+12	Taco
+68	     -Baked Beans
+39	     -Onion
+34	     -Carrots
+32	     -Tomato
+31	     -Pepper
+72	     -Hard Cheese
+39	     -Onion
+32	     -Tomato
+31	     -Pepper
+29	     -Buns
+22	     -Hamburger
+
+*****Sunday Lunch*****
+15	Stir-Fry
+60	     -Rice
+39	     -Onion
+34	     -Carrots
+31	     -Pepper
+23	     -Chicken
+
+*****Sunday Dinner*****
+15	Stir-Fry
+60	     -Rice
+39	     -Onion
+34	     -Carrots
+31	     -Pepper
+23	     -Chicken
+
+***********************

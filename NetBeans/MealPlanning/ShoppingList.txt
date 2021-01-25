@@ -1,0 +1,32 @@
+	----------S-H-O-P-P-I-N-G---L-I-S-T----------
+
+SERVINGS:	NAME:                    ID:
+1		Cookies                  63
+1		Chips - Pretzels         64
+4		Buns                     39
+3		Sweet Potato Fries       86
+1		Milk                     9
+4		Chicken                  33
+3		Hamburger                32
+5		Bannana                  51
+3		Juice                    8
+4		Apple                    52
+4		Carrots                  44
+7		Cucumber                 43
+8		Tomato                   42
+11		Pepper                   41
+6		Onion                    49
+1		Hard Cheese              82
+1		Pizzia                   
+1		Pudding                  
+1		Ice Cream                
+1		Crunch Chocolate         
+1		Smarties                 
+1		Chicke WIngs             
+5		Apples or Oranges        
+4		Lettuce                  
+3		Olives                   
+3		Sloppy Joe Mix           
+1		Washer Fluid             
+1		RainX                    
+1		GRain Bars               

@@ -1,0 +1,148 @@
+	----------M-E-N-U----------
+               Nov_11
+ID:		NAME:
+
+*****Breakfast*****
+0	     -Pizzia
+0	     -Pudding
+63	     -Cookies
+0	     -Ice Cream
+0	     -Crunch Chocolate
+0	     -Smarties
+0	     -Chicke WIngs
+51	     -Bannana
+8	     -Juice
+9	     -Milk
+
+*****Monday Lunch*****
+52	     -Apple
+0	     -Apples or Oranges
+16	Salad Wrap - Chicken - Tortilla
+0	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+33	     -Chicken
+
+*****Monday Dinner*****
+29	Cold Pasta - Noodles
+0	     -Italian Dressing
+0	     -Olives
+71	     -Noodles
+49	     -Onion
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+
+*****Tuesday Lunch*****
+64	     -Chips - Pretzels
+0	     -Apples or Oranges
+14	Sandwich - Tuna - Buns
+83	     -Tuna
+82	     -Hard Cheese
+42	     -Tomato
+41	     -Pepper
+39	     -Buns
+
+*****Tuesday Dinner*****
+86	     -Sweet Potato Fries
+18	Sloppy Joe - Hamburger - Buns
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Wednesday Lunch*****
+52	     -Apple
+0	     -Apples or Oranges
+29	Cold Pasta - Noodles
+0	     -Italian Dressing
+0	     -Olives
+71	     -Noodles
+49	     -Onion
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+16	Salad Wrap - Chicken - Tortilla
+0	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+33	     -Chicken
+
+*****Wednesday Dinner*****
+0	     -THANKSGIVING
+
+*****Thursday Lunch*****
+0	     -THANKSGIVING
+
+*****Thursday Dinner*****
+0	     -THANKSGIVING
+
+*****Friday Lunch*****
+0	     -THANKSGIVING
+
+*****Friday Dinner*****
+86	     -Sweet Potato Fries
+0	     -THANKSGIVING
+18	Sloppy Joe - Hamburger - Buns
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Saturday Lunch*****
+52	     -Apple
+16	Salad Wrap - Chicken - Tortilla
+0	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+33	     -Chicken
+
+*****Saturday Dinner*****
+0	     -Apples or Oranges
+0	     -Made Spagetti Sauce
+11	Pasta
+71	     -Noodles
+
+*****Sunday Lunch*****
+52	     -Apple
+29	Cold Pasta - Noodles
+0	     -Italian Dressing
+0	     -Olives
+71	     -Noodles
+49	     -Onion
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+16	Salad Wrap - Chicken - Tortilla
+0	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+33	     -Chicken
+
+*****Sunday Dinner*****
+0	     -Apples or Oranges
+86	     -Sweet Potato Fries
+18	Sloppy Joe - Hamburger - Buns
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+***********************

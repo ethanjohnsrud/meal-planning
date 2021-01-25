@@ -1,0 +1,38 @@
+Log Reported: 2018-12-05 22:36:24.587
+Notes:
+     Will Do!
+Found an Origional Meal in Catalog - must be edited first. -  - 2018-12-05 22:36:03.897
+
+
+Log Reported: 2018-12-06 09:12:04.321
+Test Error - 2018-12-06 09:12:00.831
+
+
+Log Reported: 2018-12-06 18:53:41.28
+Notes:
+     entered ham into id
+Input is not a valid integer - idText.setOnAction - 2018-12-06 18:53:25.481
+
+
+Log Reported: 2018-12-06 19:46:22.77
+Found an Origional Meal in Catalog - must be edited first. -  - 2018-12-06 19:46:16.94
+
+
+Log Reported: 2018-12-06 19:49:03.027
+Found an Origional Meal in Catalog - must be edited first. -  - 2018-12-06 19:48:59.934
+
+
+Log Reported: 2018-12-07 15:03:22.351
+Notes:
+     Can I still add if not an ingredient?
+Ingredient not found in 24 - Sandwich - ingredientsEditID.setOnAction()--(adding ingredient) - 2018-12-07 15:02:48.589
+
+
+Log Reported: 2018-12-08 10:48:34.98
+Notes:
+     Testing
+Test Error - 2018-12-08 10:48:23.004
+Test Error - 2018-12-08 10:48:26.372
+Test Error - 2018-12-08 10:48:29.33
+
+

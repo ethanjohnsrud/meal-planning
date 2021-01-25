@@ -1,0 +1,39 @@
+Meal Planning COmplaints:
+
+ADJUSTMENTS:
+------------
+
+In Menu, when select a meal on Recents list it shows the recent meal corectly, but doesn't update the current Meal.
+
+New/Blank/unfound Menu should default to reset with blank menu.
+
+
+
+In Menu View, should be able to search by ID Number; perhaps left view is ID number and Right is word search, no longer display Ingredient ID, or display but not search.
+
+
+*Also, not every launch, but every few data lost of cutom ingredients could be in previous Save or upload?
+
+
+* Add COLOR * 
+
+
+
+IMPROVMENTS:
+-------------
+
+*NEW* : WHen Meals are Added to Menu: first Entry gets Ingredients, rest get 'Made-Meal' Variation
+
+
+I want notes added to Meals,  that are also printed to the Menu; such as recipies.
+
+Setting to pick start of week, ,may just rename stuff; but would have to be from display both menu and make meal indaicators,to export and in Menu list itself.  Also could bve setting to rename with required number od characters; stars.
+
+When create a new Meal, get multiple confirmations and still have to select save to close window; should only one confirmation and auto close also should auto display the new meal(with empty menu).  Perhaps add new button to Menu Stage ('N') that gets a String for name with popup and do eveything above.
+
+Create settings view: toggle display confirmation messages and set recommend list number and spot here or outside in all view where request for string apperas to report complainetn to be saved in file, so this but from inside the application.
+
+
+DONE:
+------
+In MakeMeal Window, when clear menu or new menu, need to clear meal indicators.

@@ -1,0 +1,112 @@
+	----------M-E-N-U----------
+               3-24---3-31-2019
+ID:		NAME:
+
+*****Breakfast*****
+30	     -Eggs
+9	     -Milk
+
+*****Monday Lunch*****
+53	     -Oranges
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+33	     -Chicken
+39	     -Buns
+
+*****Monday Dinner*****
+0	     -Beans
+0	     -Drum Sticks
+26	Mac & Cheese
+0	     -Kraft Mac-N-Cheese Box
+9	     -Milk
+
+*****Tuesday Lunch*****
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+33	     -Chicken
+39	     -Buns
+18	Sloppy Joe
+53	     -Oranges
+
+*****Tuesday Dinner*****
+40	     -Frozen Vegetables
+0	     -MADE SLOPPY JOE
+
+*****Wednesday Lunch*****
+0	     -FOOD COURT
+9	Milk
+53	     -Oranges
+18	Sloppy Joe
+53	     -Oranges
+
+*****Wednesday Dinner*****
+0	     -Beans
+0	     -Drum Sticks
+26	Mac & Cheese
+0	     -Kraft Mac-N-Cheese Box
+9	     -Milk
+
+*****Thursday Lunch*****
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+33	     -Chicken
+39	     -Buns
+40	Frozen Vegetables
+53	     -Oranges
+
+*****Thursday Dinner*****
+40	     -Frozen Vegetables
+40	     -Frozen Vegetables
+11	Pasta
+49	     -Onion
+71	     -Noodles
+74	     -Alfredo Sauce
+85	     -Garlic
+33	     -Chicken
+
+*****Friday Lunch*****
+52	     -Apple
+0	     -FOOD COURT
+40	Frozen Vegetables
+53	     -Oranges
+
+*****Friday Dinner*****
+0	     -Pizzia or Meal
+
+*****Saturday Lunch*****
+19	Full Scrammbled Eggs
+49	     -Onion
+41	     -Pepper
+36	     -Sausage
+35	     -Sliced Meat
+34	     -Bacon
+30	     -Eggs
+
+*****Saturday Dinner*****
+52	     -Apple
+11	Pasta
+49	     -Onion
+71	     -Noodles
+74	     -Alfredo Sauce
+85	     -Garlic
+33	     -Chicken
+26	Mac & Cheese
+40	     -Frozen Vegetables
+
+*****Sunday Lunch*****
+0	     -FAMILY MEAL
+
+*****Sunday Dinner*****
+52	     -Apple
+11	Pasta
+40	     -Frozen Vegetables
+49	     -Onion
+71	     -Noodles
+74	     -Alfredo Sauce
+85	     -Garlic
+33	     -Chicken
+
+***********************

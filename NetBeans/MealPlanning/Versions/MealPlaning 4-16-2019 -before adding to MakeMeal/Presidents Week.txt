@@ -1,0 +1,104 @@
+	----------M-E-N-U----------
+               Presidents Week
+ID:		NAME:
+
+*****Breakfast*****
+40	     -Frozen Vegetables
+17	Burger
+82	     -Hard Cheese
+49	     -Onion
+42	     -Tomato
+39	     -Buns
+32	     -Hamburger
+
+*****Monday Lunch*****
+63	     -Cookies
+55	     -Grapes
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+39	     -Buns
+35	     -Sliced Meat
+
+*****Monday Dinner*****
+70	     -Rice
+0	     -Chinese Mix
+
+*****Tuesday Lunch*****
+63	     -Cookies
+56	     -Pineapple
+14	Sandwich
+41	     -Pepper
+83	     -Tuna
+39	     -Buns
+
+*****Tuesday Dinner*****
+40	     -Frozen Vegetables
+17	Burger
+82	     -Hard Cheese
+49	     -Onion
+42	     -Tomato
+39	     -Buns
+32	     -Hamburger
+
+*****Wednesday Lunch*****
+63	     -Cookies
+55	     -Grapes
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+39	     -Buns
+35	     -Sliced Meat
+
+*****Wednesday Dinner*****
+70	     -Rice
+0	     -Chinese Mix
+
+*****Thursday Lunch*****
+63	     -Cookies
+56	     -Pineapple
+14	Sandwich
+41	     -Pepper
+83	     -Tuna
+39	     -Buns
+
+*****Thursday Dinner*****
+12	Taco
+78	     -Baked Beans
+49	     -Onion
+44	     -Carrots
+42	     -Tomato
+41	     -Pepper
+32	     -Hamburger
+
+*****Friday Lunch*****
+63	     -Cookies
+55	     -Grapes
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+39	     -Buns
+35	     -Sliced Meat
+
+*****Friday Dinner*****
+0	     -Snowmobiling in Bemidji :)
+
+*****Saturday Lunch*****
+0	     -Snowmobiling in Bemidji :)
+
+*****Saturday Dinner*****
+0	     -Snowmobiling in Bemidji :)
+
+*****Sunday Lunch*****
+0	     -Snowmobiling in Bemidji :)
+
+*****Sunday Dinner*****
+12	Taco
+78	     -Baked Beans
+49	     -Onion
+44	     -Carrots
+42	     -Tomato
+41	     -Pepper
+32	     -Hamburger
+
+***********************

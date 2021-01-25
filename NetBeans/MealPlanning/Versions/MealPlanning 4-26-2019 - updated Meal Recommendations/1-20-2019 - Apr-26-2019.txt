@@ -1,0 +1,121 @@
+	----------M-E-N-U----------
+               1-20-2019
+ID:		NAME:
+
+*****Breakfast*****
+0	     -Cream Cheese
+5	Breakfast
+81	     -Bagel
+36	     -Sausage
+
+*****Monday Lunch*****
+
+*****Monday Dinner*****
+
+*****Tuesday Lunch*****
+53	     -Oranges
+11	Pasta
+72	     -Spaghetti Sauce
+71	     -Noodles
+
+*****Tuesday Dinner*****
+40	     -Frozen Vegetables
+17	Burger
+82	     -Hard Cheese
+49	     -Onion
+42	     -Tomato
+39	     -Buns
+32	     -Hamburger
+
+*****Wednesday Lunch*****
+53	     -Oranges
+10	Salad
+83	     -Tuna
+41	     -Pepper
+42	     -Tomato
+43	     -Cucumber
+
+*****Wednesday Dinner*****
+40	     -Frozen Vegetables
+26	Mac & Cheese
+71	     -Noodles
+33	     -Chicken
+9	     -Milk
+
+*****Thursday Lunch*****
+53	     -Oranges
+14	Sandwich
+42	     -Tomato
+82	     -Hard Cheese
+41	     -Pepper
+35	     -Sliced Meat
+
+*****Thursday Dinner*****
+40	     -Frozen Vegetables
+17	Burger
+82	     -Hard Cheese
+49	     -Onion
+42	     -Tomato
+39	     -Buns
+32	     -Hamburger
+
+*****Friday Lunch*****
+10	Salad
+33	     -Chicken
+41	     -Pepper
+42	     -Tomato
+43	     -Cucumber
+
+*****Friday Dinner*****
+53	     -Oranges
+40	     -Frozen Vegetables
+26	Mac & Cheese
+71	     -Noodles
+33	     -Chicken
+9	     -Milk
+
+*****Saturday Lunch*****
+22	Chili
+0	     -Shili Soup Mix
+88	     -Soup Crackers
+87	     -Kidney Beans
+85	     -Garlic
+73	     -Diced Tomatoes
+49	     -Onion
+41	     -Pepper
+32	     -Hamburger
+
+*****Saturday Dinner*****
+53	     -Oranges
+28	Enchiladas
+85	     -Garlic
+70	     -Rice
+49	     -Onion
+41	     -Pepper
+37	     -Tortilla
+33	     -Chicken
+32	     -Hamburger
+
+*****Sunday Lunch*****
+22	Chili
+0	     -Shili Soup Mix
+88	     -Soup Crackers
+87	     -Kidney Beans
+85	     -Garlic
+73	     -Diced Tomatoes
+49	     -Onion
+41	     -Pepper
+32	     -Hamburger
+
+*****Sunday Dinner*****
+53	     -Oranges
+28	Enchiladas
+85	     -Garlic
+70	     -Rice
+49	     -Onion
+41	     -Pepper
+37	     -Tortilla
+33	     -Chicken
+32	     -Hamburger
+
+***********************

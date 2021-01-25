@@ -1,0 +1,29 @@
+	----------S-H-O-P-P-I-N-G---L-I-S-T----------
+
+QUANTITY:	NAME:		ID:
+1		Bacon		14
+4		Eggs		10
+2		Baked Beans		68
+2		Chicken		13
+2		Hard Cheese		72
+2		Hamburger		12
+2		Fish		11
+1		Apple		42
+1		Grapes		45
+1		Bannana		41
+1		Juice		8
+4		Tomato		32
+4		Pepper		31
+2		Onion		39
+1		Brownies		56
+1		Bagel		71
+4		Bread		18
+5		Rice		60
+2		Tortilla		17
+2		Buns		19
+1		Ice Cream		58
+4		Milk		9
+2		man n cheese		0
+2		Wings		0
+1		Grandma's Lopster tale		0
+1		wild rice soup		0

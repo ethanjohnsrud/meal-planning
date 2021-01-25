@@ -1,0 +1,139 @@
+	----------M-E-N-U----------
+               3-17---2-24-19
+ID:		NAME:
+
+*****Breakfast*****
+8	     -Juice
+30	     -Eggs
+9	     -Milk
+
+*****Monday Lunch*****
+53	     -Oranges
+14	Sandwich
+35	     -Sliced Meat
+41	     -Pepper
+82	     -Hard Cheese
+39	     -Buns
+
+*****Monday Dinner*****
+26	Mac & Cheese
+0	     -Kraft Mac-N-Cheese Box
+33	     -Chicken
+9	     -Milk
+
+*****Tuesday Lunch*****
+53	     -Oranges
+14	Sandwich
+35	     -Sliced Meat
+41	     -Pepper
+82	     -Hard Cheese
+39	     -Buns
+
+*****Tuesday Dinner*****
+13	Rice & Meat
+31	     -Fish
+70	     -Rice
+
+*****Wednesday Lunch*****
+53	     -Oranges
+10	Salad
+79	     -Crutons
+76	     -Dried Cranberries
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+33	     -Chicken
+
+*****Wednesday Dinner*****
+40	     -Frozen Vegetables
+18	Sloppy Joe
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Thursday Lunch*****
+53	     -Oranges
+14	Sandwich
+35	     -Sliced Meat
+41	     -Pepper
+82	     -Hard Cheese
+39	     -Buns
+
+*****Thursday Dinner*****
+13	Rice & Meat
+31	     -Fish
+70	     -Rice
+
+*****Friday Lunch*****
+53	     -Oranges
+10	Salad
+79	     -Crutons
+76	     -Dried Cranberries
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+33	     -Chicken
+
+*****Friday Dinner*****
+40	     -Frozen Vegetables
+18	Sloppy Joe
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Saturday Lunch*****
+19	Full Scrammbled Eggs
+49	     -Onion
+41	     -Pepper
+36	     -Sausage
+30	     -Eggs
+34	     -Bacon
+
+*****Saturday Dinner*****
+40	     -Frozen Vegetables
+53	     -Oranges
+18	Sloppy Joe
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Sunday Lunch*****
+10	Salad
+79	     -Crutons
+76	     -Dried Cranberries
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+33	     -Chicken
+
+*****Sunday Dinner*****
+40	     -Frozen Vegetables
+53	     -Oranges
+26	Mac & Cheese
+0	     -Kraft Mac-N-Cheese Box
+71	     -Noodles
+33	     -Chicken
+9	     -Milk
+13	Rice & Meat
+70	     -Rice
+31	     -Fish
+
+***********************

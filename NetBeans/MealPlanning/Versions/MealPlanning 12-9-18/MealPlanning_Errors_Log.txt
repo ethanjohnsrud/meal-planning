@@ -1,0 +1,215 @@
+
+
+Log Reported: 2018-12-04 15:11:24.411
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:10:47.188
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:10:47.236
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:10:47.275
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:10:47.314
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:10:47.354
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:10:47.389
+***Meal not found in Catalog - 0 - getCurrentMeal()*** - 2018-12-04 15:10:47.428
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:11:00.998
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:11:01.041
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:11:01.076
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:11:01.12
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:11:01.156
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-04 15:11:01.186
+***Meal not found in Catalog - 0 - getCurrentMeal()*** - 2018-12-04 15:11:01.218
+**-> Returning theOrigionalMeal: - 2018-12-04 15:11:01.264
+Notes:
+Theses are many Errors!
+
+
+Log Reported: 2018-12-04 15:23:52.439
+Test Error - 2018-12-04 15:23:40.762
+Notes:
+new
+
+
+Log Reported: 2018-12-04 15:43:21.093
+***Meal not found in Catalog - 2204 - getCurrentMeal()*** - 2018-12-04 15:42:54.726
+**-> Returning theOrigionalMeal: - 2018-12-04 15:42:54.827
+***Meal not found in Catalog - 2204 - getCurrentMeal()*** - 2018-12-04 15:42:54.925
+**-> Returning theOrigionalMeal: - 2018-12-04 15:42:54.967
+***Meal not found in Catalog - 2204 - getCurrentMeal()*** - 2018-12-04 15:42:55.01
+**-> Returning theOrigionalMeal: - 2018-12-04 15:42:55.058
+***Meal not found in Catalog - 2204 - getCurrentMeal()*** - 2018-12-04 15:42:55.092
+**-> Returning theOrigionalMeal: - 2018-12-04 15:42:55.128
+***Meal not found in Catalog - 2204 - getCurrentMeal()*** - 2018-12-04 15:42:55.176
+**-> Returning theOrigionalMeal: - 2018-12-04 15:42:55.22
+***Meal not found in Catalog - 2204 - getCurrentMeal()*** - 2018-12-04 15:42:55.267
+**-> Returning theOrigionalMeal: - 2018-12-04 15:42:55.303
+***Meal not found in Catalog - 2204 - getCurrentMeal()*** - 2018-12-04 15:42:55.341
+**-> Returning theOrigionalMeal: - 2018-12-04 15:42:55.383
+Notes:
+WOW
+
+
+Log Reported: 2018-12-04 15:44:54.991
+Notes:
+BLANK TEST?
+
+
+Log Reported: 2018-12-04 15:45:53.132
+Meal already in Catalog - 46 - Meal-idText.setOnAction() - 2018-12-04 15:45:42.293
+
+
+Log Reported: 2018-12-04 15:56:12.431
+Test Error - 2018-12-04 15:55:32.787
+Test Error - 2018-12-04 15:56:02.551
+Test Error - 2018-12-04 15:56:08.507
+
+
+Log Reported: 2018-12-05 17:32:58.279
+getCatalogEditIDEntry() - Entry: >0< - 2018-12-05 17:32:26.056
+Input is not a valid integer - catalogEditID is less than zero - getCatalogEditIDEntry() - 2018-12-05 17:32:26.119
+getCatalogEditIDEntry() - Entry: >0< - 2018-12-05 17:32:26.151
+Input is not a valid integer - catalogEditID is less than zero - getCatalogEditIDEntry() - 2018-12-05 17:32:26.204
+getCatalogEditIDEntry() - Entry: >0< - 2018-12-05 17:32:26.252
+Input is not a valid integer - catalogEditID is less than zero - getCatalogEditIDEntry() - 2018-12-05 17:32:26.297
+getCatalogEditIDEntry() - Entry: >0< - 2018-12-05 17:32:26.366
+Input is not a valid integer - catalogEditID is less than zero - getCatalogEditIDEntry() - 2018-12-05 17:32:26.404
+getCatalogEditIDEntry() - Entry: >0< - 2018-12-05 17:32:26.451
+Input is not a valid integer - catalogEditID is less than zero - getCatalogEditIDEntry() - 2018-12-05 17:32:26.504
+getCatalogEditIDEntry() - Entry: >0< - 2018-12-05 17:32:26.555
+Input is not a valid integer - catalogEditID is less than zero - getCatalogEditIDEntry() - 2018-12-05 17:32:26.614
+getCatalogEditIDEntry() - Entry: >99< - 2018-12-05 17:32:26.653
+getCatalogEditIDEntry() - Entry: >99< - 2018-12-05 17:32:26.704
+getCatalogEditIDEntry() - Entry: >99< - 2018-12-05 17:32:26.738
+getCatalogEditIDEntry() - Entry: >99< - 2018-12-05 17:32:26.773
+getCatalogEditIDEntry() - Entry: >99< - 2018-12-05 17:32:26.805
+getCatalogEditIDEntry() - Entry: >99< - 2018-12-05 17:32:26.84
+
+
+Log Reported: 2018-12-05 17:34:48.066
+getCatalogEditIDEntry() - Entry: >67< - 2018-12-05 17:34:40.217
+getCatalogEditIDEntry() - Entry: >67< - 2018-12-05 17:34:40.249
+getCatalogEditIDEntry() - Entry: >67< - 2018-12-05 17:34:40.289
+getCatalogEditIDEntry() - Entry: >67< - 2018-12-05 17:34:40.328
+getCatalogEditIDEntry() - Entry: >67< - 2018-12-05 17:34:40.365
+getCatalogEditIDEntry() - Entry: >67< - 2018-12-05 17:34:40.399
+Must change ID to save, must be greater than zero. - 2018-12-05 17:34:40.438
+
+
+Log Reported: 2018-12-05 17:48:03.747
+Meal already in Catalog - 55 - Meal-idText.setOnAction() - 2018-12-05 17:47:46.382
+getCatalogEditIDEntry() - Entry: >52< - 2018-12-05 17:47:46.401
+getCatalogEditIDEntry() - Entry: >52< - 2018-12-05 17:47:46.432
+getCatalogEditIDEntry() - Entry: >52< - 2018-12-05 17:47:46.459
+getCatalogEditIDEntry() - Entry: >52< - 2018-12-05 17:47:46.49
+getCatalogEditIDEntry() - Entry: >52< - 2018-12-05 17:47:46.52
+getCatalogEditIDEntry() - Entry: >52< - 2018-12-05 17:47:46.553
+
+
+Log Reported: 2018-12-05 18:18:14.536
+Found an Origional Meal in Catalog - must be edited first. -  - 2018-12-05 18:18:00.161
+Notes:
+alright then!
+
+
+Log Reported: 2018-12-05 21:56:36.129
+***Meal not found in Catalog - 44 - getCurrentMeal()*** - 2018-12-05 21:56:33.728
+**-> Returning theOrigionalMeal: - 2018-12-05 21:56:33.747
+Log Reported: 2018-12-06 09:17:15.028
+Notes:
+     This is why we need to override getCurrent Meal() during launch.
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:24.57
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:24.948
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:25.253
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:25.56
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:25.678
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:25.949
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:26.412
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:26.601
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:26.803
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:26.989
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:27.145
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:27.315
+***Meal not found in Catalog - 0 - getCurrentMeal()*** - 2018-12-06 09:16:27.472
+**-> Returning theOrigionalMeal: - 2018-12-06 09:16:27.552
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:27.632
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:27.737
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:27.979
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:28.068
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:28.413
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:28.517
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:28.611
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:28.722
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:28.833
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:28.911
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:29.058
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:29.179
+***Meal not found in Catalog - 0 - getCurrentMeal()*** - 2018-12-06 09:16:29.298
+**-> Returning theOrigionalMeal: - 2018-12-06 09:16:29.473
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:29.531
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:29.578
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:29.728
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:29.868
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:29.951
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:30.043
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:30.125
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:30.187
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:30.266
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:30.344
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:30.413
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:30.499
+***Meal not found in Catalog - 0 - getCurrentMeal()*** - 2018-12-06 09:16:30.6
+**-> Returning theOrigionalMeal: - 2018-12-06 09:16:30.697
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:30.834
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:30.918
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:31.067
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:31.19
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:31.296
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:31.597
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:31.691
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:31.768
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:31.993
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:32.083
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:32.196
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:32.313
+***Meal not found in Catalog - 0 - getCurrentMeal()*** - 2018-12-06 09:16:32.693
+**-> Returning theOrigionalMeal: - 2018-12-06 09:16:32.768
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:33.055
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:33.142
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:33.228
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:33.334
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:33.387
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:33.611
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:33.714
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:33.853
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:33.937
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:34.005
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:34.145
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:34.202
+***Meal not found in Catalog - 0 - getCurrentMeal()*** - 2018-12-06 09:16:34.313
+**-> Returning theOrigionalMeal: - 2018-12-06 09:16:34.446
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:34.514
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:34.576
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:34.828
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:34.889
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:34.997
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:35.076
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:35.166
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:35.233
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:35.38
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:35.432
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:35.489
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:35.585
+***Meal not found in Catalog - 0 - getCurrentMeal()*** - 2018-12-06 09:16:35.664
+**-> Returning theOrigionalMeal: - 2018-12-06 09:16:35.724
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:35.974
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:36.042
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:36.112
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:36.17
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:36.255
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:36.436
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:36.497
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:36.562
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:36.63
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:36.709
+Input is not a valid integer - NumberFormatException - getCatalogEditIDEntry() - 2018-12-06 09:16:36.774
+getCatalogEditIDEntry() - Entry: >< - 2018-12-06 09:16:36.85
+***Meal not found in Catalog - 0 - getCurrentMeal()*** - 2018-12-06 09:16:37.046
+**-> Returning theOrigionalMeal: - 2018-12-06 09:16:37.099
+
+

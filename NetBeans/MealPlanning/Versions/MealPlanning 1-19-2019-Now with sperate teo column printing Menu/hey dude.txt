@@ -1,0 +1,79 @@
+	----------M-E-N-U----------
+
+ID:		NAME:
+
+*****Breakfast*****
+
+*****Monday Lunch*****
+35	     -Lettuce
+42	     -Apple
+35	     -Lettuce
+42	     -Apple
+14	Sandwich - Tuna - Bread
+73	     -Tuna
+32	     -Tomato
+31	     -Pepper
+28	     -Bread
+14	Sandwich - Tuna - Bread
+73	     -Tuna
+32	     -Tomato
+31	     -Pepper
+28	     -Bread
+
+*****Monday Dinner*****
+26	     -Sausage
+
+*****Tuesday Lunch*****
+35	     -Lettuce
+42	     -Apple
+35	     -Lettuce
+42	     -Apple
+14	Sandwich - Tuna - Bread
+73	     -Tuna
+32	     -Tomato
+31	     -Pepper
+28	     -Bread
+14	Sandwich - Tuna - Bread
+73	     -Tuna
+32	     -Tomato
+31	     -Pepper
+28	     -Bread
+
+*****Tuesday Dinner*****
+26	     -Sausage
+
+*****Wednessday Lunch*****
+35	     -Lettuce
+42	     -Apple
+35	     -Lettuce
+42	     -Apple
+14	Sandwich - Tuna - Bread
+73	     -Tuna
+32	     -Tomato
+31	     -Pepper
+28	     -Bread
+14	Sandwich - Tuna - Bread
+73	     -Tuna
+32	     -Tomato
+31	     -Pepper
+28	     -Bread
+
+*****Wednessday Dinner*****
+
+*****Thursday Lunch*****
+
+*****Thursday Dinner*****
+
+*****Friday Lunch*****
+
+*****Friday Dinner*****
+
+*****Saturday Lunch*****
+
+*****Saturday Dinner*****
+
+*****Sunday Lunch*****
+
+*****Sunday Dinner*****
+
+***********************

@@ -1,0 +1,35 @@
+	----------M-E-N-U----------
+               1-28---2-3-2019
+ID:		NAME:
+
+*****Breakfast*****
+
+*****Monday Lunch*****
+
+*****Monday Dinner*****
+
+*****Tuesday Lunch*****
+
+*****Tuesday Dinner*****
+
+*****Wednesday Lunch*****
+
+*****Wednesday Dinner*****
+
+*****Thursday Lunch*****
+
+*****Thursday Dinner*****
+
+*****Friday Lunch*****
+
+*****Friday Dinner*****
+
+*****Saturday Lunch*****
+
+*****Saturday Dinner*****
+
+*****Sunday Lunch*****
+
+*****Sunday Dinner*****
+
+***********************

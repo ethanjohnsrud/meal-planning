@@ -1,0 +1,119 @@
+	----------M-E-N-U----------
+               4-1---4-7-2019
+ID:		NAME:
+
+*****Breakfast*****
+30	     -Eggs
+51	     -Bannana
+24	Chinese Mix
+85	     -Garlic
+0	     -Lo Mein
+0	     -General Chicken
+70	     -Rice
+56	     -Pineapple
+44	     -Carrots
+41	     -Pepper
+
+*****Monday Lunch*****
+52	     -Apple
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+39	     -Buns
+35	     -Sliced Meat
+
+*****Monday Dinner*****
+40	     -Frozen Vegetables
+0	     -Sloppy Joe Made
+
+*****Tuesday Lunch*****
+55	     -Grapes
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+39	     -Buns
+35	     -Sliced Meat
+
+*****Tuesday Dinner*****
+12	Taco
+85	     -Garlic
+49	     -Onion
+44	     -Carrots
+42	     -Tomato
+41	     -Pepper
+37	     -Tortilla
+32	     -Hamburger
+
+*****Wednesday Lunch*****
+52	     -Apple
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+39	     -Buns
+35	     -Sliced Meat
+
+*****Wednesday Dinner*****
+0	     -FOOD COURT
+
+*****Thursday Lunch*****
+55	     -Grapes
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+39	     -Buns
+35	     -Sliced Meat
+
+*****Thursday Dinner*****
+12	Taco
+85	     -Garlic
+49	     -Onion
+44	     -Carrots
+42	     -Tomato
+41	     -Pepper
+37	     -Tortilla
+32	     -Hamburger
+
+*****Friday Lunch*****
+52	     -Apple
+0	     -FOOD COURT
+
+*****Friday Dinner*****
+24	Chinese Mix
+85	     -Garlic
+0	     -Lo Mein
+0	     -General Chicken
+70	     -Rice
+56	     -Pineapple
+44	     -Carrots
+41	     -Pepper
+
+*****Saturday Lunch*****
+52	     -Apple
+20	French Toast
+30	     -Eggs
+9	     -Milk
+
+*****Saturday Dinner*****
+12	Taco
+85	     -Garlic
+49	     -Onion
+44	     -Carrots
+42	     -Tomato
+41	     -Pepper
+37	     -Tortilla
+32	     -Hamburger
+
+*****Sunday Lunch*****
+52	     -Apple
+
+*****Sunday Dinner*****
+24	Chinese Mix
+85	     -Garlic
+0	     -Lo Mein
+0	     -General Chicken
+70	     -Rice
+56	     -Pineapple
+44	     -Carrots
+41	     -Pepper
+
+***********************

@@ -1,0 +1,100 @@
+	----------M-E-N-U----------
+
+ID:		NAME:
+
+*****Breakfast*****
+56	     -Brownies
+58	     -Ice Cream
+42	     -Apple
+5	Breakfast
+71	     -Bagel
+45	     -Grapes
+41	     -Bannana
+18	     -Bread
+14	     -Bacon
+10	     -Eggs
+8	     -Juice
+9	     -Milk
+26	French Toast
+18	     -Bread
+10	     -Eggs
+9	     -Milk
+
+*****Monday Lunch*****
+
+*****Monday Dinner*****
+0	     -man n cheese
+0	     -Wings
+
+*****Tuesday Lunch*****
+0	     -Grandma's Lopster tale
+60	     -Rice
+
+*****Tuesday Dinner*****
+60	     -Rice
+22	Taco
+68	     -Baked Beans
+32	     -Tomato
+31	     -Pepper
+17	     -Tortilla
+13	     -Chicken
+
+*****Wednessday Lunch*****
+0	     -wild rice soup
+
+*****Wednessday Dinner*****
+0	     -man n cheese
+0	     -Wings
+27	Burger
+72	     -Hard Cheese
+39	     -Onion
+32	     -Tomato
+31	     -Pepper
+19	     -Buns
+12	     -Hamburger
+
+*****Thursday Lunch*****
+
+*****Thursday Dinner*****
+60	     -Rice
+22	Taco
+68	     -Baked Beans
+32	     -Tomato
+31	     -Pepper
+17	     -Tortilla
+13	     -Chicken
+
+*****Friday Lunch*****
+23	Rice & Meat
+60	     -Rice
+11	     -Fish
+
+*****Friday Dinner*****
+27	Burger
+72	     -Hard Cheese
+39	     -Onion
+32	     -Tomato
+31	     -Pepper
+19	     -Buns
+12	     -Hamburger
+
+*****Saturday Lunch*****
+26	French Toast
+18	     -Bread
+10	     -Eggs
+9	     -Milk
+
+*****Saturday Dinner*****
+23	Rice & Meat
+60	     -Rice
+11	     -Fish
+
+*****Sunday Lunch*****
+26	French Toast
+18	     -Bread
+10	     -Eggs
+9	     -Milk
+
+*****Sunday Dinner*****
+
+***********************

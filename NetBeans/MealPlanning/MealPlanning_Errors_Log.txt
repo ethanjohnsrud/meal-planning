@@ -1,0 +1,2554 @@
+Log Reported: 2019-04-20 20:40:00.687
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:49.674
+Line: 1 - 2019-04-20 20:39:49.71
+LastRead: >
+< - 2019-04-20 20:39:49.742
+Skipped Line: ,30,     -Eggs,0,true,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:49.773
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:49.807
+Line: 3 - 2019-04-20 20:39:49.829
+LastRead: >
+< - 2019-04-20 20:39:49.854
+Skipped Line: ,24,Chinese Mix,2,true,true,true,true,true,false,true,false,|, - 2019-04-20 20:39:49.879
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:49.913
+Line: 5 - 2019-04-20 20:39:49.944
+LastRead: >
+< - 2019-04-20 20:39:49.972
+Skipped Line: ,0,     -Lo Mein,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:49.999
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:50.036
+Line: 7 - 2019-04-20 20:39:50.065
+LastRead: >
+< - 2019-04-20 20:39:50.102
+Skipped Line: ,70,     -Rice,0,false,true,false,false,false,false,true,false,|, - 2019-04-20 20:39:50.129
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:50.156
+Line: 9 - 2019-04-20 20:39:50.181
+LastRead: >
+< - 2019-04-20 20:39:50.208
+Skipped Line: ,44,     -Carrots,0,false,false,true,false,false,true,false,false,|, - 2019-04-20 20:39:50.234
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:50.26
+Line: 11 - 2019-04-20 20:39:50.286
+LastRead: >
+< - 2019-04-20 20:39:50.313
+Skipped Line: ,-2,*****Monday Lunch*****,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:50.34
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:50.37
+Line: 13 - 2019-04-20 20:39:50.413
+LastRead: >
+< - 2019-04-20 20:39:50.439
+Skipped Line: ,14,Sandwich,0,true,true,false,false,false,true,true,false,|, - 2019-04-20 20:39:50.465
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:50.493
+Line: 15 - 2019-04-20 20:39:50.525
+LastRead: >
+< - 2019-04-20 20:39:50.559
+Skipped Line: ,41,     -Pepper,0,false,false,true,false,false,true,false,false,|, - 2019-04-20 20:39:50.587
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:50.614
+Line: 17 - 2019-04-20 20:39:50.657
+LastRead: >
+< - 2019-04-20 20:39:50.679
+Skipped Line: ,35,     -Sliced Meat,0,true,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:50.704
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:50.727
+Line: 19 - 2019-04-20 20:39:50.748
+LastRead: >
+< - 2019-04-20 20:39:50.775
+Skipped Line: ,40,     -Frozen Vegetables,0,false,false,true,false,false,false,false,false,|, - 2019-04-20 20:39:50.809
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:50.831
+Line: 21 - 2019-04-20 20:39:50.855
+LastRead: >
+< - 2019-04-20 20:39:50.876
+Skipped Line: ,-4,*****Tuesday Lunch*****,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:50.899
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:50.926
+Line: 23 - 2019-04-20 20:39:50.953
+LastRead: >
+< - 2019-04-20 20:39:50.976
+Skipped Line: ,14,Sandwich,1,true,true,false,false,false,true,true,false,|, - 2019-04-20 20:39:51.005
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:51.03
+Line: 25 - 2019-04-20 20:39:51.056
+LastRead: >
+< - 2019-04-20 20:39:51.089
+Skipped Line: ,41,     -Pepper,0,false,false,true,false,false,true,false,false,|, - 2019-04-20 20:39:51.115
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:51.161
+Line: 27 - 2019-04-20 20:39:51.215
+LastRead: >
+< - 2019-04-20 20:39:51.245
+Skipped Line: ,35,     -Sliced Meat,0,true,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:51.284
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:51.343
+Line: 29 - 2019-04-20 20:39:51.365
+LastRead: >
+< - 2019-04-20 20:39:51.389
+Skipped Line: ,12,Taco,0,true,true,true,false,false,false,true,false,|, - 2019-04-20 20:39:51.409
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:51.432
+Line: 31 - 2019-04-20 20:39:51.457
+LastRead: >
+< - 2019-04-20 20:39:51.477
+Skipped Line: ,49,     -Onion,0,false,false,true,false,false,false,false,false,|, - 2019-04-20 20:39:51.499
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:51.525
+Line: 33 - 2019-04-20 20:39:51.547
+LastRead: >
+< - 2019-04-20 20:39:51.569
+Skipped Line: ,42,     -Tomato,0,false,false,true,false,false,false,false,false,|, - 2019-04-20 20:39:51.596
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:51.618
+Line: 35 - 2019-04-20 20:39:51.643
+LastRead: >
+< - 2019-04-20 20:39:51.674
+Skipped Line: ,37,     -Tortilla,0,false,true,false,false,false,false,true,false,|, - 2019-04-20 20:39:51.697
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:51.725
+Line: 37 - 2019-04-20 20:39:51.754
+LastRead: >
+< - 2019-04-20 20:39:51.78
+Skipped Line: ,-6,*****Wednesday Lunch*****,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:51.803
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:51.826
+Line: 39 - 2019-04-20 20:39:51.849
+LastRead: >
+< - 2019-04-20 20:39:51.877
+Skipped Line: ,14,Sandwich,2,true,true,false,false,false,true,true,false,|, - 2019-04-20 20:39:51.9
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:51.925
+Line: 41 - 2019-04-20 20:39:51.948
+LastRead: >
+< - 2019-04-20 20:39:51.97
+Skipped Line: ,41,     -Pepper,0,false,false,true,false,false,true,false,false,|, - 2019-04-20 20:39:51.99
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:52.012
+Line: 43 - 2019-04-20 20:39:52.034
+LastRead: >
+< - 2019-04-20 20:39:52.058
+Skipped Line: ,35,     -Sliced Meat,0,true,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:52.083
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:52.112
+Line: 45 - 2019-04-20 20:39:52.143
+LastRead: >
+< - 2019-04-20 20:39:52.17
+Skipped Line: ,0,     -FOOD COURT,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:52.193
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:52.223
+Line: 47 - 2019-04-20 20:39:52.246
+LastRead: >
+< - 2019-04-20 20:39:52.274
+Skipped Line: ,55,     -Grapes,1,false,false,false,true,false,true,false,false,|, - 2019-04-20 20:39:52.312
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:52.342
+Line: 49 - 2019-04-20 20:39:52.362
+LastRead: >
+< - 2019-04-20 20:39:52.39
+Skipped Line: ,82,     -Hard Cheese,0,false,true,false,false,false,false,true,false,|, - 2019-04-20 20:39:52.42
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:52.441
+Line: 51 - 2019-04-20 20:39:52.46
+LastRead: >
+< - 2019-04-20 20:39:52.481
+Skipped Line: ,39,     -Buns,0,false,true,false,false,true,false,true,false,|, - 2019-04-20 20:39:52.508
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:52.53
+Line: 53 - 2019-04-20 20:39:52.555
+LastRead: >
+< - 2019-04-20 20:39:52.579
+Skipped Line: ,-9,*****Thursday Dinner*****,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:52.601
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:52.623
+Line: 55 - 2019-04-20 20:39:52.644
+LastRead: >
+< - 2019-04-20 20:39:52.667
+Skipped Line: ,85,     -Garlic,0,false,false,true,false,false,false,false,false,|, - 2019-04-20 20:39:52.691
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:52.713
+Line: 57 - 2019-04-20 20:39:52.738
+LastRead: >
+< - 2019-04-20 20:39:52.768
+Skipped Line: ,44,     -Carrots,0,false,false,true,false,false,true,false,false,|, - 2019-04-20 20:39:52.795
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:52.82
+Line: 59 - 2019-04-20 20:39:52.843
+LastRead: >
+< - 2019-04-20 20:39:52.863
+Skipped Line: ,41,     -Pepper,0,false,false,true,false,false,true,false,false,|, - 2019-04-20 20:39:52.885
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:52.907
+Line: 61 - 2019-04-20 20:39:52.928
+LastRead: >
+< - 2019-04-20 20:39:52.953
+Skipped Line: ,32,     -Hamburger,0,true,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:52.977
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.003
+Line: 63 - 2019-04-20 20:39:53.024
+LastRead: >
+< - 2019-04-20 20:39:53.045
+Skipped Line: ,52,     -Apple,2,false,false,false,true,false,true,false,false,|, - 2019-04-20 20:39:53.068
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.092
+Line: 65 - 2019-04-20 20:39:53.112
+LastRead: >
+< - 2019-04-20 20:39:53.132
+Skipped Line: ,-11,*****Friday Dinner*****,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:53.16
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.182
+Line: 67 - 2019-04-20 20:39:53.203
+LastRead: >
+< - 2019-04-20 20:39:53.224
+Skipped Line: ,85,     -Garlic,0,false,false,true,false,false,false,false,false,|, - 2019-04-20 20:39:53.245
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.264
+Line: 69 - 2019-04-20 20:39:53.291
+LastRead: >
+< - 2019-04-20 20:39:53.313
+Skipped Line: ,0,     -General Chicken,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:53.337
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.362
+Line: 71 - 2019-04-20 20:39:53.386
+LastRead: >
+< - 2019-04-20 20:39:53.411
+Skipped Line: ,56,     -Pineapple,0,false,false,false,true,false,false,false,false,|, - 2019-04-20 20:39:53.442
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.464
+Line: 73 - 2019-04-20 20:39:53.487
+LastRead: >
+< - 2019-04-20 20:39:53.511
+Skipped Line: ,41,     -Pepper,0,false,false,true,false,false,true,false,false,|, - 2019-04-20 20:39:53.53
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.553
+Line: 75 - 2019-04-20 20:39:53.576
+LastRead: >
+< - 2019-04-20 20:39:53.601
+Skipped Line: ,52,     -Apple,3,false,false,false,true,false,true,false,false,|, - 2019-04-20 20:39:53.625
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.646
+Line: 77 - 2019-04-20 20:39:53.667
+LastRead: >
+< - 2019-04-20 20:39:53.692
+Skipped Line: ,30,     -Eggs,0,true,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:53.716
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.739
+Line: 79 - 2019-04-20 20:39:53.762
+LastRead: >
+< - 2019-04-20 20:39:53.786
+Skipped Line: ,-13,*****Saturday Dinner*****,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:53.81
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.83
+Line: 81 - 2019-04-20 20:39:53.853
+LastRead: >
+< - 2019-04-20 20:39:53.875
+Skipped Line: ,85,     -Garlic,0,false,false,true,false,false,false,false,false,|, - 2019-04-20 20:39:53.898
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:53.922
+Line: 83 - 2019-04-20 20:39:53.944
+LastRead: >
+< - 2019-04-20 20:39:53.967
+Skipped Line: ,44,     -Carrots,0,false,false,true,false,false,true,false,false,|, - 2019-04-20 20:39:53.994
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:54.015
+Line: 85 - 2019-04-20 20:39:54.038
+LastRead: >
+< - 2019-04-20 20:39:54.059
+Skipped Line: ,41,     -Pepper,0,false,false,true,false,false,true,false,false,|, - 2019-04-20 20:39:54.083
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:54.106
+Line: 87 - 2019-04-20 20:39:54.13
+LastRead: >
+< - 2019-04-20 20:39:54.157
+Skipped Line: ,32,     -Hamburger,0,true,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:54.184
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:54.212
+Line: 89 - 2019-04-20 20:39:54.24
+LastRead: >
+< - 2019-04-20 20:39:54.264
+Skipped Line: ,52,     -Apple,4,false,false,false,true,false,true,false,false,|, - 2019-04-20 20:39:54.286
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:54.309
+Line: 91 - 2019-04-20 20:39:54.33
+LastRead: >
+< - 2019-04-20 20:39:54.351
+Skipped Line: ,24,Chinese Mix,1,true,true,true,true,true,false,true,false,|, - 2019-04-20 20:39:54.373
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:54.396
+Line: 93 - 2019-04-20 20:39:54.424
+LastRead: >
+< - 2019-04-20 20:39:54.445
+Skipped Line: ,0,     -Lo Mein,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:54.467
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:54.491
+Line: 95 - 2019-04-20 20:39:54.52
+LastRead: >
+< - 2019-04-20 20:39:54.542
+Skipped Line: ,70,     -Rice,0,false,true,false,false,false,false,true,false,|, - 2019-04-20 20:39:54.565
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:54.591
+Line: 97 - 2019-04-20 20:39:54.613
+LastRead: >
+< - 2019-04-20 20:39:54.64
+Skipped Line: ,44,     -Carrots,0,false,false,true,false,false,true,false,false,|, - 2019-04-20 20:39:54.662
+***><><***NumberFormatException - Meal skipped ***><><***- Save.menuImport() - 2019-04-20 20:39:54.686
+Line: 99 - 2019-04-20 20:39:54.708
+LastRead: >
+< - 2019-04-20 20:39:54.734
+Skipped Line: ,-16,***********************,0,false,false,false,false,false,false,false,false,|, - 2019-04-20 20:39:54.761
+
+
+Log Reported: 2019-04-20 20:58:48.882
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 2019-04-20 20:58:55.261
+Message:
+     List Selection Needed: Select a Random Meal
+***Action Taken***
+
+
+Log Reported: 2019-04-20 20:59:03.701
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 2019-04-20 20:59:08.355
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 2019-04-20 20:59:13.514
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 2019-04-20 20:59:28.234
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 2019-04-20 20:59:36.649
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 2019-04-22 16:30:52.9
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 2019-04-22 16:31:38.347
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 2019-04-22 16:32:24.606
+Message:
+     List Selection Needed: Select a Random Meal
+***Action Taken***
+
+
+Log Reported: 2019-04-22 16:32:48.053
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: CURRENT LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: CURRENT LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1210
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 5 - Breakfast
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 5 - Breakfast
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 103
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 8 - Juice
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 8 - Juice
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: CURRENT LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1210
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 5 - Breakfast
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 3
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 5 - Breakfast
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 103
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 8 - Juice
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 15
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 8 - Juice
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 708
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 9 - Milk
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 26
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 9 - Milk
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1183
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 10 - Salad
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 20
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 10 - Salad
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1057
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 11 - Pasta
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 15
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 11 - Pasta
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1198
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 12 - Taco
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 9
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 12 - Taco
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1188
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 13 - Rice & Meat
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 8
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 13 - Rice & Meat
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1148
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 14 - Sandwich
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 31
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 14 - Sandwich
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1155
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 15 - Stir-Fry
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 5
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 15 - Stir-Fry
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1067
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 16 - Salad Wrap
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 3
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 16 - Salad Wrap
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 750
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 17 - Burger
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 6
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 17 - Burger
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 576
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 18 - Sloppy Joe
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 8
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 18 - Sloppy Joe
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 857
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 19 - Full Scrammbled Eggs
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 4
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 19 - Full Scrammbled Eggs
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1205
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 20 - French Toast
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 6
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 20 - French Toast
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1181
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 21 - Tuna Cold Pasta
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 21 - Tuna Cold Pasta
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 350
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 22 - Chili
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 2
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 22 - Chili
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 183
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 23 - Pancakes
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 4
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 23 - Pancakes
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 657
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 24 - Chinese Mix
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 6
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 24 - Chinese Mix
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1009
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 25 - Cereal
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 4
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 25 - Cereal
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1127
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 26 - Mac & Cheese
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 8
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 26 - Mac & Cheese
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 905
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 27 - Wild Rice Soup
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 3
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 27 - Wild Rice Soup
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 534
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 28 - Enchiladas
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 5
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 28 - Enchiladas
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 116
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 29 - Cold Pasta
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 3
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 29 - Cold Pasta
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 540
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 30 - Eggs
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 17
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 30 - Eggs
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1209
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 31 - Fish
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 9
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 31 - Fish
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1150
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 32 - Hamburger
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 21
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 32 - Hamburger
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1005
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 33 - Chicken
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 37
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 33 - Chicken
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1203
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 34 - Bacon
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 8
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 34 - Bacon
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1208
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 35 - Sliced Meat
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 27
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 35 - Sliced Meat
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1158
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 36 - Sausage
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 5
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 36 - Sausage
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 893
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 37 - Tortilla
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 11
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 37 - Tortilla
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1191
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 38 - Bread
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 8
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 38 - Bread
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1157
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 39 - Buns
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 34
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 39 - Buns
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 969
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 40 - Frozen Vegetables
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 34
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 40 - Frozen Vegetables
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1187
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 41 - Pepper
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 97
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 41 - Pepper
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1209
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 42 - Tomato
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 39
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 42 - Tomato
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1189
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 43 - Cucumber
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 21
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 43 - Cucumber
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1060
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 44 - Carrots
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 39
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 44 - Carrots
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1153
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 45 - Lettuce
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 18
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 45 - Lettuce
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1058
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 46 - Pea Pods
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 6
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 46 - Pea Pods
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 211
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 49 - Onion
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 51
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 49 - Onion
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1209
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 51 - Bannana
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 9
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 51 - Bannana
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 920
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 52 - Apple
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 18
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 52 - Apple
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1134
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 53 - Oranges
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 40
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 53 - Oranges
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1197
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 55 - Grapes
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 10
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 55 - Grapes
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1053
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 56 - Pineapple
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 7
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 56 - Pineapple
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1014
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 60 - Cliff Bars
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 5
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 60 - Cliff Bars
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 500
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 61 - Granola Bars
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 13
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 61 - Granola Bars
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 750
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 62 - Gatoraid
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 5
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 62 - Gatoraid
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 500
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 63 - Cookies
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 7
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 63 - Cookies
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 609
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 64 - Chips - Pretzels
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 8
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 64 - Chips - Pretzels
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1153
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 66 - Brownies
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 3
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 66 - Brownies
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1155
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 67 - Pudding
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 13
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 67 - Pudding
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 850
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 68 - Ice Cream
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 2
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 68 - Ice Cream
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 270
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 70 - Rice
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 26
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 70 - Rice
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1149
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 71 - Noodles
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 23
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 71 - Noodles
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1201
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 72 - Spaghetti Sauce
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 4
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 72 - Spaghetti Sauce
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 702
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 73 - Diced Tomatoes
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 5
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 73 - Diced Tomatoes
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 701
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 74 - Alfredo Sauce
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 11
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 74 - Alfredo Sauce
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1200
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 76 - Dried Cranberries
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 16
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 76 - Dried Cranberries
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 808
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 78 - Baked Beans
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 2
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 78 - Baked Beans
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 626
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 79 - Crutons
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 16
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 79 - Crutons
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 807
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 81 - Bagel
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 7
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 81 - Bagel
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 701
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 82 - Hard Cheese
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 31
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 82 - Hard Cheese
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 967
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 83 - Tuna
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 7
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 83 - Tuna
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1207
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 84 - Tomato Paste
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 6
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 84 - Tomato Paste
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 800
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 85 - Garlic
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 24
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 85 - Garlic
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1199
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 86 - Sweet Potato Fries
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 0
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 86 - Sweet Potato Fries
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 0
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 87 - Kidney Beans
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 3
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 87 - Kidney Beans
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 189
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 88 - Soup Crackers
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 7
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 88 - Soup Crackers
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1193
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 89 - Sub Loaf
+POPULARITY
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 2
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: 89 - Sub Loaf
+LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 955
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: CURRENT LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1210
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     String Needed: CURRENT LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Return Value: 1210
+***Action Taken***
+
+
+Log Reported: 
+### - 0 - Current Entry (date) is reading zero for Calculations - MealPlanning.set() - 
+
+
+Log Reported: 
+Message:
+     String Needed: CURRENT LAST USED
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Random Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Random Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Random Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Random Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Notes:
+     CUSTOM_NOTES_ADDING
+EXAMPLE ERROR MESSAGES: - 
+***><><***FILE NOT FOUND INPORT FAILED***><><*** - Save.catalogImport() - 
+-> Perhaps Invalid Menu Name -> Change & Save. - 
+Insertion Algorithm Failed sorting Catalog, may have lost meals - NullPointerException - updateCatalog() - 
+Meal not found in Catalog - 14 - Taco - Catalog-idText.setOnAction() - 
+Invalid Input - ID must be greater than zero. - catalogChangeID.setOnAction - 
+NullPointerException - Accessing Catalog Final Element - updateMeal().idNextIngredient.setText() - 
+Input is not a valid integer - getMealEditIDEntry() - 
+IndexOutOfBoundsException - MenuView.menuRecentTable.addListener() - 
+Menu Not Fount -> Creating a New Menu - +2-4-2019 - 
+adding/removing from RecentList - NullPointerException - MenuView.addRecent() - 
+***><><***IOEXCEPTION EXPORT FAILED***><><***- Menu - - 
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Error detected.  Suggest to perform Action Below:
+***Action Ignored
+
+
+Log Reported: 
+Test Error - 
+
+
+Log Reported: 
+Message:
+     Error detected.  Suggest to perform Action Below:
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     Error detected.  Suggest to perform Action Below:
+***Action Ignored
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Recommended Meal
+***Action Taken***
+
+
+Log Reported: 
+Message:
+     List Selection Needed: Select a Random Meal
+***Action Taken***
+
+

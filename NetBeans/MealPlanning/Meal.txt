@@ -1,0 +1,112 @@
+- - - - - - - - - - - - - - - M - E - N - U - - - - - - - - - - - - - - -
+               Nov_11               Nov-22-2019
+ID:    NAME:                              ID:    NAME:
+                                                 
+       *****Breakfast*****                       *****Wednesday Dinner*****
+            -Pizzia                                   -THANKSGIVING
+            -Pudding                             
+63          -Cookies                             *****Thursday Lunch*****
+            -Ice Cream                                -THANKSGIVING
+            -Crunch Chocolate                    
+            -Smarties                            *****Thursday Dinner*****
+            -Chicke WIngs                             -THANKSGIVING
+51          -Bannana                             
+8           -Juice                              *****Friday Lunch*****
+9           -Milk                                    -THANKSGIVING
+                                                 
+       *****Monday Lunch*****                    *****Friday Dinner*****
+52          -Apple                        86          -Sweet Potato Fries
+            -Apples or Oranges                        -THANKSGIVING
+16     Salad Wrap - Chicken - Tortilla    18     Sloppy Joe - Hamburger - Buns
+            -Lettuce                                  -Sloppy Joe Mix
+44          -Carrots                      85          -Garlic
+43          -Cucumber                     84          -Tomato Paste
+42          -Tomato                       49          -Onion
+41          -Pepper                       41          -Pepper
+33          -Chicken                      39          -Buns
+                                          32          -Hamburger
+       *****Monday Dinner*****                   
+29     Cold Pasta - Noodles                      *****Saturday Lunch*****
+            -Italian Dressing             52          -Apple
+            -Olives                       16     Salad Wrap - Chicken - Tortilla
+71          -Noodles                                  -Lettuce
+49          -Onion                        44          -Carrots
+43          -Cucumber                     43          -Cucumber
+42          -Tomato                       42          -Tomato
+41          -Pepper                       41          -Pepper
+                                          33          -Chicken
+       *****Tuesday Lunch*****                   
+64          -Chips - Pretzels                    *****Saturday Dinner*****
+            -Apples or Oranges                        -Apples or Oranges
+14     Sandwich - Tuna - Buns                         -Made Spagetti Sauce
+83          -Tuna                         11     Pasta
+82          -Hard Cheese                  71          -Noodles
+42          -Tomato                              
+41          -Pepper                              *****Sunday Lunch*****
+39          -Buns                         52          -Apple
+                                          29     Cold Pasta - Noodles
+       *****Tuesday Dinner*****                       -Italian Dressing
+86          -Sweet Potato Fries                       -Olives
+18     Sloppy Joe - Hamburger - Buns      71          -Noodles
+            -Sloppy Joe Mix               49          -Onion
+85          -Garlic                       43          -Cucumber
+84          -Tomato Paste                 42          -Tomato
+49          -Onion                        41          -Pepper
+41          -Pepper                       16     Salad Wrap - Chicken - Tortilla
+39          -Buns                                     -Lettuce
+32          -Hamburger                    44          -Carrots
+                                          43          -Cucumber
+       *****Wednesday Lunch*****          42          -Tomato
+52          -Apple                        41          -Pepper
+            -Apples or Oranges            33          -Chicken
+29     Cold Pasta - Noodles                      
+            -Italian Dressing                    *****Sunday Dinner*****
+            -Olives                                   -Apples or Oranges
+71          -Noodles                      86          -Sweet Potato Fries
+49          -Onion                        18     Sloppy Joe - Hamburger - Buns
+43          -Cucumber                                 -Sloppy Joe Mix
+42          -Tomato                       85          -Garlic
+41          -Pepper                       84          -Tomato Paste
+16     Salad Wrap - Chicken - Tortilla    49          -Onion
+            -Lettuce                      41          -Pepper
+44          -Carrots                      39          -Buns
+43          -Cucumber                     32          -Hamburger
+42          -Tomato                              
+41          -Pepper                              ***********************
+33          -Chicken                      
+
+
+
+
+- - - - - - S - H - O - P - P - I - N - G - - - L - I - S - T - - - - - -
+Nov_11
+SERVINGS:	NAME:                    ID:
+1		Cookies                  63
+1		Chips - Pretzels         64
+4		Buns                     39
+3		Sweet Potato Fries       86
+1		Milk                     9
+4		Chicken                  33
+3		Hamburger                32
+5		Bannana                  51
+3		Juice                    8
+4		Apple                    52
+4		Carrots                  44
+7		Cucumber                 43
+8		Tomato                   42
+11		Pepper                   41
+6		Onion                    49
+1		Hard Cheese              82
+1		Pizzia                   
+1		Pudding                  
+1		Ice Cream                
+1		Crunch Chocolate         
+1		Smarties                 
+1		Chicke WIngs             
+5		Apples or Oranges        
+4		Lettuce                  
+3		Olives                   
+3		Sloppy Joe Mix           
+1		Washer Fluid             
+1		RainX                    
+1		GRain Bars               

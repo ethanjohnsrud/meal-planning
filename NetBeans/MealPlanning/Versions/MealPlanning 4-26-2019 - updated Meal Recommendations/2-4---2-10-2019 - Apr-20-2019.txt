@@ -1,0 +1,138 @@
+	----------M-E-N-U----------
+               2-4---2-10-2019
+ID:		NAME:
+
+*****Breakfast*****
+25	Cereal
+9	     -Milk
+
+*****Monday Lunch*****
+0	     -City Group Fasting
+
+*****Monday Dinner*****
+0	     -City Group Fasting
+
+*****Tuesday Lunch*****
+55	     -Grapes
+0	     -Baby Carrots
+41	     -Pepper
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+39	     -Buns
+35	     -Sliced Meat
+
+*****Tuesday Dinner*****
+18	Sloppy Joe
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Wednesday Lunch*****
+52	     -Apple
+64	     -Chips - Pretzels
+10	Salad
+41	     -Pepper
+42	     -Tomato
+43	     -Cucumber
+44	     -Carrots
+45	     -Lettuce
+46	     -Pea Pods
+76	     -Dried Cranberries
+79	     -Crutons
+35	     -Sliced Meat
+
+*****Wednesday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta
+71	     -Noodles
+49	     -Onion
+74	     -Alfredo Sauce
+33	     -Chicken
+
+*****Thursday Lunch*****
+55	     -Grapes
+0	     -Baby Carrots
+41	     -Pepper
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+39	     -Buns
+35	     -Sliced Meat
+
+*****Thursday Dinner*****
+18	Sloppy Joe
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Friday Lunch*****
+52	     -Apple
+64	     -Chips - Pretzels
+10	Salad
+41	     -Pepper
+42	     -Tomato
+43	     -Cucumber
+44	     -Carrots
+45	     -Lettuce
+46	     -Pea Pods
+76	     -Dried Cranberries
+79	     -Crutons
+35	     -Sliced Meat
+
+*****Friday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta
+71	     -Noodles
+49	     -Onion
+74	     -Alfredo Sauce
+33	     -Chicken
+
+*****Saturday Lunch*****
+52	     -Apple
+10	Salad
+41	     -Pepper
+42	     -Tomato
+43	     -Cucumber
+44	     -Carrots
+46	     -Pea Pods
+76	     -Dried Cranberries
+79	     -Crutons
+45	     -Lettuce
+35	     -Sliced Meat
+
+*****Saturday Dinner*****
+64	     -Chips - Pretzels
+18	Sloppy Joe
+0	     -Sloppy Joe Mix
+85	     -Garlic
+84	     -Tomato Paste
+49	     -Onion
+41	     -Pepper
+39	     -Buns
+32	     -Hamburger
+
+*****Sunday Lunch*****
+52	     -Apple
+13	Rice & Meat
+70	     -Rice
+31	     -Fish
+
+*****Sunday Dinner*****
+40	     -Frozen Vegetables
+64	     -Chips - Pretzels
+11	Pasta
+71	     -Noodles
+49	     -Onion
+74	     -Alfredo Sauce
+33	     -Chicken
+
+***********************

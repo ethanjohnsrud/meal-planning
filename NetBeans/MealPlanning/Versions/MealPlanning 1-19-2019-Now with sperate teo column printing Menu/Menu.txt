@@ -1,0 +1,105 @@
+- - - - - - - - - - - - - - - M - E - N - U - - - - - - - - - - - - - - -
+
+ID:    NAME:                              ID:    NAME:
+                                                 
+       *****Breakfast*****                       *****Thursday Lunch*****
+36          -Sausage                      44          -Carrots
+                                          43          -Cucumber
+       *****Monday Lunch*****             41          -Pepper
+10     Salad                              53          -Oranges
+76          -Dried Cranberries            14     Sandwich
+45          -Lettuce                      82          -Hard Cheese
+44          -Carrots                      35          -Sliced Meat
+43          -Cucumber                     39          -Buns
+42          -Tomato                              
+41          -Pepper                              *****Thursday Dinner*****
+33          -Chicken                      40          -Frozen Vegetables
+                                          17     Burger
+       *****Monday Dinner*****            82          -Hard Cheese
+56          -Pineapple                    49          -Onion
+17     Burger                             42          -Tomato
+32          -Hamburger                    41          -Pepper
+41          -Pepper                       39          -Buns
+42          -Tomato                       32          -Hamburger
+49          -Onion                               
+82          -Hard Cheese                         *****Friday Lunch*****
+39          -Buns                         44          -Carrots
+                                          43          -Cucumber
+       *****Tuesday Lunch*****            41          -Pepper
+            -Wild Rice Soup               53          -Oranges
+56          -Pineapple                    14     Sandwich
+88          -Soup Crackers                82          -Hard Cheese
+                                          35          -Sliced Meat
+       *****Tuesday Dinner*****           39          -Buns
+            -Grandma's Lopster                   
+56          -Pineapple                           *****Friday Dinner*****
+70          -Rice                         15     Stir-Fry
+15     Stir-Fry                           70          -Rice
+49          -Onion                        49          -Onion
+41          -Pepper                       44          -Carrots
+44          -Carrots                      41          -Pepper
+                                          31          -Fish
+       *****Wednessday Lunch*****                
+10     Salad                                     *****Saturday Lunch*****
+79          -Crutons                                  -Left Overs
+76          -Dried Cranberries                   
+45          -Lettuce                             *****Saturday Dinner*****
+44          -Carrots                      33          -Chicken
+43          -Cucumber                     26     Mac & Cheese
+42          -Tomato                                   -1/4 Cup of Flour
+41          -Pepper                       71          -Noodles
+33          -Chicken                      9           -Milk
+                                                 
+       *****Wednessday Dinner*****               *****Sunday Lunch*****
+40          -Frozen Vegetables            14     Sandwich - Tuna - Buns
+11     Pasta                              83          -Tuna
+73          -Diced Tomatoes               82          -Hard Cheese
+72          -Spaghetti Sauce              41          -Pepper
+71          -Noodles                      39          -Buns
+71          -Noodles                             
+49          -Onion                               *****Sunday Dinner*****
+41          -Pepper                                   -Left Overs
+       
+       ***********************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

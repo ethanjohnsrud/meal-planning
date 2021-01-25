@@ -1,0 +1,130 @@
+	----------M-E-N-U----------
+               2-11---2-17-2019
+ID:		NAME:
+
+*****Breakfast*****
+0	     -Berries ???
+30	     -Eggs
+
+*****Monday Lunch*****
+53	     -Oranges
+14	Sandwich
+41	     -Pepper
+38	     -Bread
+83	     -Tuna
+
+*****Monday Dinner*****
+0	     -Made Califorinia Veggies
+0	     -Made Sloppy Joe's
+
+*****Tuesday Lunch*****
+53	     -Oranges
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+38	     -Bread
+35	     -Sliced Meat
+
+*****Tuesday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+33	     -Chicken
+
+*****Wednesday Lunch*****
+53	     -Oranges
+10	Salad
+76	     -Dried Cranberries
+79	     -Crutons
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+34	     -Bacon
+
+*****Wednesday Dinner*****
+24	Chinese Mix
+0	     -Broccoli
+0	     -Chinese General Chicken
+0	     -Chinese Mix Kit
+70	     -Rice
+56	     -Pineapple
+44	     -Carrots
+41	     -Pepper
+
+*****Thursday Lunch*****
+40	     -Frozen Vegetables
+53	     -Oranges
+14	Sandwich
+82	     -Hard Cheese
+41	     -Pepper
+38	     -Bread
+35	     -Sliced Meat
+
+*****Thursday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+33	     -Chicken
+
+*****Friday Lunch*****
+53	     -Oranges
+10	Salad
+76	     -Dried Cranberries
+79	     -Crutons
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+34	     -Bacon
+
+*****Friday Dinner*****
+24	Chinese Mix
+0	     -Broccoli
+0	     -Chinese General Chicken
+0	     -Chinese Mix Kit
+70	     -Rice
+56	     -Pineapple
+44	     -Carrots
+41	     -Pepper
+
+*****Saturday Lunch*****
+0	     -"Skip Meal - OR - Leftovers"
+
+*****Saturday Dinner*****
+40	     -Frozen Vegetables
+11	Pasta
+74	     -Alfredo Sauce
+71	     -Noodles
+49	     -Onion
+33	     -Chicken
+
+*****Sunday Lunch*****
+53	     -Oranges
+10	Salad
+79	     -Crutons
+76	     -Dried Cranberries
+45	     -Lettuce
+44	     -Carrots
+43	     -Cucumber
+42	     -Tomato
+41	     -Pepper
+33	     -Chicken
+
+*****Sunday Dinner*****
+24	Chinese Mix
+0	     -Broccoli
+0	     -Chinese General Chicken
+0	     -Chinese Mix Kit
+70	     -Rice
+56	     -Pineapple
+44	     -Carrots
+41	     -Pepper
+
+***********************
